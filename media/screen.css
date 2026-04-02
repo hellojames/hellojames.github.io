@@ -273,9 +273,7 @@ Last validated  2022.11.01
     }
 
   blockquote span {
-    background: #f2f0e4;
-    border-bottom: 1px solid #e8e6db;
-    border-top: 1px solid #e8e6db;
+    background: #f8f8f8;
     display: block;
     padding: 10px 0 13px 0;
   }
