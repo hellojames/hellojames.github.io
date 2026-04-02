@@ -216,7 +216,7 @@ Validated  2026.04.02
   /* typography */
 
   h1, p {
-    /* transition: font-size 0.25s; 2026.04 */
+    transition: font-size 0.25s;
   }
 
   h1 {
