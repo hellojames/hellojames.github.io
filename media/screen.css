@@ -370,7 +370,8 @@ Validated  2026.04.02
   
   /* elements */
 
-  figure, 
+  figure,
+  iframe,
   .video {
     margin: 4em 0 3em 0;
     padding: 0;
@@ -389,11 +390,13 @@ Validated  2026.04.02
   }
 
   img,
-  video {
+  video,
+  iframe {
     max-width: 100%;
   }
 
-  video {
+  video,
+  iframe {
     margin-bottom: 0.9em;
   }
 
@@ -659,11 +662,13 @@ Validated  2026.04.02
 
   /* #continuous-design only */
 
-  #continuous-design .video {
+  #continuous-design .video,
+  #continuous-design iframe {
     overflow: hidden;
   }
 
-  #continuous-design .video video {
+  #continuous-design .video video,
+  #continuous-design iframe {
     margin-top: -5px;
   }
 
