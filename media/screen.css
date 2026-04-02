@@ -508,9 +508,10 @@ Validated  2026.04.02
   }
 
   button:focus {
-    background: gold;
-    border-color: gold;
-    color: #222;
+    border-color: #222;
+    color: gold;
+    outline: 5px solid gold;
+    outline-offset: 0;
   }
 
 
