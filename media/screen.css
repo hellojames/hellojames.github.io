@@ -511,7 +511,7 @@ Validated  2026.04.02
     border-color: #890309;
   }
 
-  button:focus {
+  button:focus-visible {
     border-color: #222;
     color: gold;
     outline: 5px solid gold;
