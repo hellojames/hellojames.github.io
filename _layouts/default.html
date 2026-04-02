@@ -29,17 +29,22 @@ Validated   2024.01.01
     -->
   </head>
 
-  <body>
+  <body id="top">
 
     <div class="wrapper">
 
       <header>
         <p class="hj"><a href="https://hellojames.co.uk" title="hellojames.co.uk" class="home">hellojames</a> james cook</p>
-        <p class="imprint">2007&ndash;26 &copy; coded by hand in britain</p>
+        <p class="imprint">2007&ndash;{{ 'now' | date: '%y' }} &copy; coded by hand in britain</p>
       </header>
 
       {{ content }}
-
+ 
+      <footer>
+        <a class="" href="{{ '/colophon/index.html' | relative_url }}">Colophon</a>. 
+        <a class="" href="#top">Return to top</a>
+      </footer>
+      
     </div>
 
   </body>
