@@ -492,6 +492,19 @@ Validated  2026.04.02
     text-decoration: none;
   }
 
+
+header a:focus,
+footer a:focus {
+  outline: none;
+}
+
+header a:focus-visible,
+footer a:focus-visible {
+  outline: none;
+}
+
+
+  
   header i,
   footer i {
     margin-right: -0.3em;
