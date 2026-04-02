@@ -436,6 +436,10 @@ Validated  2026.04.02
     margin-bottom: 0.9em;
   }
 
+  iframe {
+    max-height: 585px; /* for Google Drive video embed */
+  }
+
   
   /* forms */
 
