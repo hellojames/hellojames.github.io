@@ -1,10 +1,10 @@
 @charset "UTF-8";
 
 /*
-Theme           hellojames screen
-Author          hellojames.co.uk
-Last updated    2025.06.01
-Last validated  2022.11.01
+Theme      hellojames screen
+Author     hellojames.co.uk
+Updated    2026.04.02
+Validated  2026.04.02
 */
 
 @media screen {
@@ -154,7 +154,7 @@ Last validated  2022.11.01
   /* layout */
 
   body {
-    background: #fff; /* off-white: #f9f7eb */
+    background: #fff; /* previous: #f9f7eb */
     color: #222;
     font-family: Georgia, serif;
     font-size: 16px; /* base */
@@ -170,7 +170,9 @@ Last validated  2022.11.01
   }
 
     @media screen and (min-width: 1050px) {
-      .wrapper {font-size: 1.5em;}
+      .wrapper {
+        font-size: 1.5em;
+      }
     }
 
 
@@ -183,7 +185,9 @@ Last validated  2022.11.01
   }
 
   a:link,
-  a:visited {color: #222;} /* prev: 245291 */
+  a:visited {
+    color: #222; /* previous: 245291 */
+  }
 
   a:hover, 
   a:active {
@@ -192,21 +196,29 @@ Last validated  2022.11.01
     -o-transition: 0.5s; -ms-transition: 0.5s; -moz-transition: 0.5s; -webkit-transition: 0.5s; transition: 0.5s;
   }
 
-  a:hover {color: #890309;} /* new colour */ /* prev: 2839be */
+  a:hover {
+    color: #890309; /* previous: 2839be */
+  }
   
-  a:hover p {color: #222 !important;}
+  a:hover p {
+    color: #222 !important;
+  }
 
   a:focus {
     background: gold;
     outline: 1px solid gold;
   }
 
-  a:active {color: #2c21eb;} /* prev: #222 */
+  a:active {
+    color: #2c21eb; /* previous: #222 */
+  }
 
 
   /* typography */
 
-  h1, p {transition: font-size 0.25s}
+  h1, p {
+    transition: font-size 0.25s;
+  }
 
   h1 {
     font-size: 2.5em;
@@ -254,13 +266,21 @@ Last validated  2022.11.01
   }
 
   h2 small, 
-  h3 small {font-weight: 100;}
+  h3 small {
+    font-weight: 100;
+  }
 
-  p {margin-bottom: 1.25em;}
+  p {
+    margin-bottom: 1.25em;
+  }
 
-  i {color: #888;}
+  i {
+    color: #888;
+  }
   
-  del {text-decoration: line-through;}
+  del {
+    text-decoration: line-through;
+  }
 
   blockquote {
     font-style: italic;
@@ -269,7 +289,9 @@ Last validated  2022.11.01
   }
 
     @media screen and (min-width: 750px) {
-      blockquote {max-width: 75%;}
+      blockquote {
+        max-width: 75%;
+      }
     }
 
   blockquote span {
@@ -312,12 +334,14 @@ Last validated  2022.11.01
     vertical-align: top;
   }
 
-  .footnote i {font-style: normal;}
+  .footnote i {
+    font-style: normal;
+  }
 
   p.footnote {
-      font-size: 0.75em;
-      line-height: 1.2;
-      margin: -1.25em 0 2.25em 0;
+    font-size: 0.75em;
+    line-height: 1.2;
+    margin: -1.25em 0 2.25em 0;
   }
 
     @media screen and (min-width: 1050px) {
@@ -327,19 +351,21 @@ Last validated  2022.11.01
       }
     }
 
-  p.footnote .asterisk {margin-left: -16px;}
+  p.footnote .asterisk {
+    margin-left: -16px;
+  }
 
   figcaption {
-      color: #888;
-      font-family: 'Anonymous Pro';
-      letter-spacing: 0.02em;
-      line-height: 1;
-      margin-top: -5px;
-      vertical-align: top;
+    color: #888;
+    font-family: 'Anonymous Pro';
+    letter-spacing: 0.02em;
+    line-height: 1;
+    margin-top: -5px;
+    vertical-align: top;
   }
 
   figcaption small {
-      font-size: 0.75em;
+    font-size: 0.75em;
   }
 
     @media screen and (min-width: 1050px) {
@@ -352,18 +378,30 @@ Last validated  2022.11.01
 
   figure, 
   .video {
-      margin: 4em 0 3em 0;
-      padding: 0;
+    margin: 4em 0 3em 0;
+    padding: 0;
   }
   
-  figure img {mix-blend-mode: multiply;}
-  figure.animation img {mix-blend-mode: normal;}
-  figure.illustration img {mix-blend-mode: darken;}
+  figure img {
+    mix-blend-mode: multiply;
+  }
+  
+  figure.animation img {
+    mix-blend-mode: normal;
+  }
+  
+  figure.illustration img {
+    mix-blend-mode: darken;
+  }
 
   img,
-  video {max-width: 100%;}
+  video {
+    max-width: 100%;
+  }
 
-  video {margin-bottom: 0.9em;}
+  video {
+    margin-bottom: 0.9em;
+  }
 
   ul {
     margin-top: -0.8em;
@@ -376,7 +414,9 @@ Last validated  2022.11.01
     margin-bottom: 0.6em;
   } 
 
-  ul li::marker {color: #8c8b84;}
+  ul li::marker {
+    color: #8c8b84;
+  }
 
   li:before {
     content: '•';
@@ -393,9 +433,10 @@ Last validated  2022.11.01
 
 
 
-  /* ### HEADER */
+  /* ### HEADER & FOOTER */
 
-  header {
+  header,
+  footer {
     font-family: 'Anonymous Pro';
     font-size: 0.75em;
     letter-spacing: 0.02em;
@@ -405,36 +446,57 @@ Last validated  2022.11.01
   }
 
   @media screen and (min-width: 1050px) {
-      header {font-size: 0.6em;}
+      header, 
+      footer {
+        font-size: 0.6em;
+      }
     }
 
-  header p {
+  header p,
+  footer p {
     margin: 0;
     max-width: 90%;
   }
 
-  header a {padding: 4px 5px;}
+  header a, 
+  footer a {
+    padding: 4px 5px;
+  }
 
   header a:link, 
-  header a:visited {color: #222;}
+  header a:visited,
+  footer a:link,
+  footer a:visited {
+    color: #222;
+  }
 
   header a:hover,
-  header a:active {
+  header a:active,
+  footer a:hover,
+  footer a:active {
     background: #333;
     color: #fff;
     text-decoration: none;
   }
 
-  header i {margin-right: -0.3em;}
+  header i,
+  footer i {
+    margin-right: -0.3em;
+  }
 
-  header span {
+  header span,
+  footer span {
     display: inline-block;
     padding-left: 0.3em;
   }
 
-  header .hj {line-height: 1.7;}
+  header .hj {
+    line-height: 1.7;
+  }
 
-  header .home {margin-right: 1em;}
+  header .home {
+    margin-right: 1em;
+  }
 
   header .imprint {
     margin: 0 1em 0 0;
@@ -457,16 +519,22 @@ Last validated  2022.11.01
 
   /* Articles list */
 
-  .articles {margin: 0;}
+  .articles {
+    margin: 0;
+  }
 
   .articles li {
     line-height: 1.35;
     margin-bottom: 2em;
   }
 
-  .articles li:before {content: none;}
+  .articles li:before {
+    content: none;
+  }
 
-  .articles li a {text-decoration: none;}
+  .articles li a {
+    text-decoration: none;
+  }
 
   .articles li h2 {
     margin: 0;
@@ -480,7 +548,9 @@ Last validated  2022.11.01
     text-decoration: none;
   }
 
-  .articles li:last-of-type {margin-bottom: 0;}
+  .articles li:last-of-type {
+    margin-bottom: 0;
+  }
 
   .articles li p {
     color: #222; 
@@ -489,7 +559,9 @@ Last validated  2022.11.01
   }
 
     @media screen and (min-width: 710px) {
-      .articles li p {max-width: 80%;}
+      .articles li p {
+        max-width: 80%;
+      }
     }
 
   .articles li a:hover p,
@@ -508,21 +580,30 @@ Last validated  2022.11.01
   }
 
   article > figure:nth-child(2),
-  article > .video:nth-child(2) {margin-top: -3.2em;}
+  article > .video:nth-child(2) {
+    margin-top: -3.2em;
+  }
 
   @media screen and (min-width: 500px) {
     article > figure:nth-child(2),
-    article > .video:nth-child(2) {margin-top: -3.6em;}
+    article > .video:nth-child(2) {
+      margin-top: -3.6em;
+    }
   }
 
   @media screen and (min-width: 600px) {
     article > figure:nth-child(2),
-    article > .video:nth-child(2) {margin-top: -4.6em;}
+    article > .video:nth-child(2) {
+      margin-top: -4.6em;
+    }
   }
 
   @media screen and (min-width: 1050px) {
     article > figure:nth-child(2),
-    article > .video:nth-child(2) {margin-top: -5.9em; margin-left: -5em;} /* top 4.2 */
+    article > .video:nth-child(2) {
+      margin-top: -5.9em;
+      margin-left: -5em; /* top: 4.2em */
+    }
   } 
 
 
@@ -532,13 +613,17 @@ Last validated  2022.11.01
 
   /* homepage only */
 
-  #home p:nth-child(2) {letter-spacing: -0.005em;}
+  #home p:nth-child(2) {
+    letter-spacing: -0.005em;
+  }
 
 
   /* #writing only */
   
   @media screen and (max-width: 605px) {
-    #writing br {display:none !important;}
+    #writing br {
+      display:none !important;
+    }
   }    
   
   
@@ -547,24 +632,39 @@ Last validated  2022.11.01
   /* #better-feedback figure {margin-left: -10px;} 2022.04 */
 
   @media screen and (min-width: 850px) {
-    #better-feedback figcaption {margin-top: -12px; margin-left: 12px;}
-    #better-feedback > p:nth-child(3) {width: 89%;}
+    #better-feedback figcaption {
+      margin-top: -12px;
+      margin-left: 12px;
+    }
+    
+    #better-feedback > p:nth-child(3) {
+      width: 89%;
+    }
   }
 
 
   /* #egyptian-iteration only */
   
-  #egyptian-iteration > p:nth-child(19) {letter-spacing: -0.005em;}
-  #egyptian-iteration > p:nth-child(39) {letter-spacing: -0.006em;}
+  #egyptian-iteration > p:nth-child(19) {
+    letter-spacing: -0.005em;
+  }
+  
+  #egyptian-iteration > p:nth-child(39) {
+    letter-spacing: -0.006em;
+  }
 
   /*#egyptian-iteration figure.illustration {margin-top: 3em;} 2022.04 */
 
 
   /* #continuous-design only */
 
-  #continuous-design .video {overflow: hidden;}
+  #continuous-design .video {
+    overflow: hidden;
+  }
 
-  #continuous-design .video video {margin-top: -5px;}
+  #continuous-design .video video {
+    margin-top: -5px;
+  }
 
 
 
