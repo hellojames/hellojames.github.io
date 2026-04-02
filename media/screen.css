@@ -399,7 +399,8 @@ Validated  2026.04.02
       }
     }
 
-  figcaption small a {
+  figcaption small a:link,
+  figcaption small a:visited {
     color: #888;
   }
   
