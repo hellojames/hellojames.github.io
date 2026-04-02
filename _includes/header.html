@@ -2,17 +2,17 @@
 
   {% if page.header_mode == "writing_item" %}
 
-  <a href="{{ '/writing/feed.xml' | relative_url }}" title="RSS feed" class="feed">feed</a>
   <a href="https://hellojames.co.uk" title="hellojames.co.uk" class="home">hellojames</a>
   <a href="{{ '/writing/' | relative_url }}">writing</a>
   <i>/</i>
   <span>{{ page.header_title | default: page.title }}</span>
+  <a href="{{ '/writing/feed.xml' | relative_url }}" title="RSS feed" class="feed">feed</a>
 
 {% elsif page.header_mode == "writing" %}
 
-  <a href="{{ '/writing/feed.xml' | relative_url }}" title="RSS feed" class="feed">feed</a>
   <a href="https://hellojames.co.uk" title="hellojames.co.uk" class="home">hellojames</a>
   <a href="{{ '/writing/' | relative_url }}">writing</a>
+  <a href="{{ '/writing/feed.xml' | relative_url }}" title="RSS feed" class="feed">feed</a>
 
 {% else %}
 

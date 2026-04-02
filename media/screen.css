@@ -291,8 +291,7 @@ Validated  2026.04.02
     margin-left: -0.65em;
     padding-right: 0.25em;
     color: #a19f93;
-    position: relative;
-    top: 2px;
+    position: relative; top: 2px;
     font-size: 1.1em;
     line-height: 1;
   }
@@ -402,6 +401,7 @@ Validated  2026.04.02
   figcaption small a:visited {
     color: #888;
   }
+
   
 
   /* media */
@@ -436,6 +436,83 @@ Validated  2026.04.02
     margin-bottom: 0.9em;
   }
 
+  
+  /* forms */
+
+  .form {
+    margin: 4em 0;
+  }
+
+    @media screen and (min-width: 550px) {
+      .form {
+        width: 75%;
+      }
+    }
+
+    @media screen and (min-width: 800px) {
+      .form {
+        width: 60%;
+      }
+    }
+  
+  input,
+  textarea,
+  select {
+    background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+    box-shadow: #ddd inset 0 0 5px 0;
+    display: block;
+    margin: 5px 0 1rem 0;
+    max-width: 100%;
+    padding: 0.75rem 0.9rem;
+    width: 100%;
+  }
+
+  textarea {
+    line-height: 1.4;
+    min-height: 140px;
+    resize: vertical;
+  }
+
+  input:disabled,
+  textarea:disabled,
+  select:disabled,
+  button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
+
+  input:focus-visible,
+  textarea:focus-visible,
+  select:focus-visible {
+    border-color: #222;
+    outline: 5px solid gold;
+    outline-offset: 0;
+  }
+
+  button {
+    border: 1px solid #222;
+    background: #222;
+    border-radius: 3px;
+    color: #fff;
+    cursor: pointer;
+    padding: 0.75rem 1rem;
+  }
+
+  button:hover,
+  button:active {
+    background: #890309;
+    border-color: #890309;
+  }
+
+  button:focus-visible {
+    border-color: #222;
+    color: gold;
+    outline: 5px solid gold !important;
+    outline-offset: 0;
+  }
 
   /* forms */
 
@@ -517,6 +594,7 @@ Validated  2026.04.02
 
 
 
+  
   /* ### HEADER & FOOTER */
 
   header,
@@ -546,7 +624,9 @@ Validated  2026.04.02
   header p,
   footer p {
     margin: 0;
-    max-width: 90%;
+    max-width: 85%;
+    padding-right: 50px;
+    position: relative;
   }
 
   header a, 
@@ -582,7 +662,7 @@ Validated  2026.04.02
 
   header i,
   footer i {
-    margin-right: -0.3em;
+    margin: 0 -0.3em;
   }
 
   header span,
@@ -606,8 +686,8 @@ Validated  2026.04.02
 
   header .feed {
     color: #222;
-    float: right;
     padding: 0 5px;
+    position: absolute; top: 0; right: 0;
   }
 
 
@@ -770,7 +850,31 @@ Validated  2026.04.02
   }
 
 
+  
+  #continuous-design iframe { /* for Google Drive video embed */
+    aspect-ratio: 16 / 9;
+    border: 0;
+    display: block;
+    height: 100%;
+    width: 100%;
+    
+  }
 
+  /*
+
+.video-wrap {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+}
+
+.video-wrap iframe {
+  width: 100%;
+  height: 100%;
+  border: 0;
+  display: block;
+}
+  
+  */
 
 
 /* /end screen */
