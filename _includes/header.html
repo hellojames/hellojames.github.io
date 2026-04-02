@@ -6,7 +6,7 @@
   <a href="https://hellojames.co.uk" title="hellojames.co.uk" class="home">hellojames</a>
   <a href="{{ '/writing/' | relative_url }}">writing</a>
   <i>/</i>
-  <span>{{ page.display_title | default: page.title }}</span>
+  <span>{{ page.header_title | default: page.title }}</span>
 
 {% elsif page.header_mode == "writing" %}
 
