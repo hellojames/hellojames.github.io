@@ -548,6 +548,10 @@ Validated  2026.04.02
   footer p {
     margin: 0;
     max-width: 90%;
+    padding-right: 40px;
+    position: relative;
+
+    background: yellow;
   }
 
   header a, 
@@ -609,6 +613,9 @@ Validated  2026.04.02
     color: #222;
     float: right;
     padding: 0 5px;
+    position: absolute; top: 0; right: 0;
+
+    background:red;
   }
 
 
