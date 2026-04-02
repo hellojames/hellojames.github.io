@@ -18,21 +18,27 @@ Validated   2024.01.01
 
 </section>
 
-<form action="https://formspree.io/f/mreoaang" method="POST" class="form">
-  <label>
-    Name:
-    <input type="text" name="name">
-  </label>
+<div class="form">
 
-  <label>
-    Email:
-    <input type="email" name="email">
-  </label>
+  <h2>Get in touch</h2>
 
-  <label>
-    Message:
-    <textarea name="message"></textarea>
-  </label>
+  <form action="https://formspree.io/f/mreoaang" method="POST">
+    <label>
+      Your name
+      <input type="text" name="name" required>
+    </label>
 
-  <button type="submit">Send</button>
-</form>
+    <label>
+      Email
+      <input type="email" name="email" pattern="^[^\s@]+@[^\s@]+\.[^\s@]+$" required>
+    </label>
+
+    <label>
+      Say Hello &#128075;
+      <textarea name="message" required></textarea>
+    </label>
+
+    <button type="submit">Send</button>
+  </form>
+
+</div>
