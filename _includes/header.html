@@ -1,21 +1,24 @@
 <p class="hj">
 
-  {% if page.header_mode == "writing" %}
+  {% if page.header_mode == "writing_item" %}
 
-    <a href="{{ '/writing/feed.xml' | relative_url }}" class="feed">feed</a>
-    <a href="https://hellojames.co.uk" title="hellojames.co.uk" class="home">hellojames</a>
-    <a href="{{ '/writing/' | relative_url }}">writing</a>
+  <a href="{{ '/writing/feed.xml' | relative_url }}" title="RSS feed" class="feed">feed</a>
+  <a href="https://hellojames.co.uk" title="hellojames.co.uk" class="home">hellojames</a>
+  <a href="{{ '/writing/' | relative_url }}">writing</a>
+  <i>/</i>
+  <span>{{ page.display_title | default: page.title }}</span>
 
-    {% if page.title and page.header_mode == "writing_item" %}
-      <i>/</i>
-      <span>{{ page.title }}</span>
-    {% endif %}
+{% elsif page.header_mode == "writing" %}
 
-  {% else %}
+  <a href="{{ '/writing/feed.xml' | relative_url }}" title="RSS feed" class="feed">feed</a>
+  <a href="https://hellojames.co.uk" title="hellojames.co.uk" class="home">hellojames</a>
+  <a href="{{ '/writing/' | relative_url }}">writing</a>
 
-    <a href="https://hellojames.co.uk" title="hellojames.co.uk" class="home">hellojames</a> james cook
+{% else %}
 
-  {% endif %}
+  <a href="https://hellojames.co.uk" title="hellojames.co.uk" class="home">hellojames</a> james cook
+
+{% endif %}
 
 </p>
 
