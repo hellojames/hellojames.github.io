@@ -158,8 +158,7 @@ Validated  2026.04.02
     color: #222;
     font-family: Georgia, serif;
     font-size: 16px; /* base */
-    margin: 20px 0 8em 0;
-    padding: 20px 20px 0 20px;
+    padding: 40px 20px 8em 20px;
   }
 
   .wrapper {
@@ -456,7 +455,7 @@ Validated  2026.04.02
   }
 
   footer {
-    margin: 20em 0 0 -0.25em;
+    margin: 20em 0 -6em -0.25em;
   }
 
   header p,
