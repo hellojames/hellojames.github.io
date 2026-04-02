@@ -3,7 +3,7 @@
   {% if page.header_mode == "writing" %}
 
     <a href="{{ '/writing/feed.xml' | relative_url }}" class="feed">feed</a>
-    <a href="{{ '/' | relative_url }}" class="home">hellojames</a>
+    <a href="https://hellojames.co.uk" title="hellojames.co.uk" class="home">hellojames</a>
     <a href="{{ '/writing/' | relative_url }}">writing</a>
 
     {% if page.title and page.header_mode == "writing_item" %}
@@ -13,10 +13,10 @@
 
   {% else %}
 
-    <a href="{{ '/' | relative_url }}" class="home">hellojames</a> james cook
+    <a href="https://hellojames.co.uk" title="hellojames.co.uk" class="home">hellojames</a> james cook
 
   {% endif %}
 
 </p>
 
-<p class="imprint">2007–## © coded by hand in britain</p>
+<p class="imprint">2007&ndash;{{ 'now' | date: '%y' }} &copy; coded by hand in britain</p>
