@@ -158,7 +158,7 @@ Validated  2026.04.02
   }
 
   body {
-    background: #f6f6f6; /* previous: #f9f7eb */
+    background: #f8f8f8; /* previous: #f9f7eb */
     color: #222;
     font-family: Georgia, serif;
     font-size: 16px; /* base */
@@ -208,7 +208,7 @@ Validated  2026.04.02
   }
 
   a:active {
-    color: green; /* #2c21eb previous: #222 */
+    color: #222;
   }
 
 
