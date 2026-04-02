@@ -194,7 +194,6 @@ Validated  2026.04.02
 
   a:hover, 
   a:active {
-    border: 10px purple;
     text-decoration: none;
   }
 
@@ -208,7 +207,7 @@ Validated  2026.04.02
   }
 
   a:active {
-    color: #222;
+    color: #890309;
   }
 
 
