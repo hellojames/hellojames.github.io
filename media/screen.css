@@ -153,6 +153,10 @@ Validated  2026.04.02
 
   /* layout */
 
+  html {
+    scroll-behavior: smooth;
+  }
+
   body {
     background: #fff; /* previous: #f9f7eb */
     color: #222;
