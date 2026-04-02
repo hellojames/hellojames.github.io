@@ -192,15 +192,10 @@ Validated  2026.04.02
   a:active {
     border: 10px purple;
     text-decoration: none;
-    /*-o-transition: 0.5s; -ms-transition: 0.5s; -moz-transition: 0.5s; -webkit-transition: 0.5s; transition: 0.5s; 2026.04 */
   }
 
   a:hover {
     color: #890309; /* previous: 2839be */
-  }
-  
-  a:hover p {
-    color: #222 !important;
   }
 
   a:focus {
