@@ -472,7 +472,7 @@ Validated  2026.04.02
 
   header a, 
   footer a {
-    padding: 4px 5px;
+    /*padding: 4px 5px;*/
   }
 
   header a:link, 
