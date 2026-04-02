@@ -574,7 +574,7 @@ Validated  2026.04.02
   .articles li a:hover p,
   .articles li a:active p {
     color: #2c21eb;
-    -o-transition: 0.5s; -ms-transition: 0.5s; -moz-transition: 0.5s; -webkit-transition: 0.5s; transition: 0.5s;
+    /*-o-transition: 0.5s; -ms-transition: 0.5s; -moz-transition: 0.5s; -webkit-transition: 0.5s; transition: 0.5s; 2026.04 */
   }
 
 
@@ -629,7 +629,7 @@ Validated  2026.04.02
   
   @media screen and (max-width: 605px) {
     #writing br {
-      display:none !important;
+      display: none !important;
     }
   }    
   
