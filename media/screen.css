@@ -291,8 +291,7 @@ Validated  2026.04.02
     margin-left: -0.65em;
     padding-right: 0.25em;
     color: #a19f93;
-    position: relative;
-    top: 2px;
+    position: relative; top: 2px;
     font-size: 1.1em;
     line-height: 1;
   }
@@ -547,11 +546,9 @@ Validated  2026.04.02
   header p,
   footer p {
     margin: 0;
-    max-width: 90%;
+    max-width: 85%;
     padding-right: 40px;
     position: relative;
-
-    background: yellow;
   }
 
   header a, 
@@ -611,11 +608,8 @@ Validated  2026.04.02
 
   header .feed {
     color: #222;
-    float: right;
     padding: 0 5px;
     position: absolute; top: 0; right: 0;
-
-    background:red;
   }
 
 
