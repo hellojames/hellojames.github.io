@@ -185,7 +185,7 @@ Validated  2026.04.02
     cursor: pointer;
     text-decoration-thickness: 0.05em;
     text-underline-offset: 0.1em;
-    transition: color 0.3s ease;
+    transition: all /*color*/ 0.2s ease;
   }
 
   a:link,
