@@ -245,7 +245,7 @@ Validated  2026.04.02
     @media screen and (min-width: 1050px) {
       h1 {
         font-size: 3.5em;
-        letter-spacing: -0.2em;
+        letter-spacing: -0.02em;
         line-height: 1.1;
         margin-bottom: 0.6em;
       }
@@ -641,6 +641,11 @@ Validated  2026.04.02
 
   a.resume:hover {
     background: gold;
+  }
+
+  a.resume:active {
+    background: #890309;
+    color: #fff;
   }
 
 
