@@ -515,87 +515,10 @@ Validated  2026.04.02
     outline-offset: 0;
   }
 
-  /* forms */
-
-  .form {
-    margin: 4em 0;
-  }
-
-    @media screen and (min-width: 550px) {
-      .form {
-        width: 75%;
-      }
-    }
-
-    @media screen and (min-width: 800px) {
-      .form {
-        width: 60%;
-      }
-    }
-
-  input,
-  textarea,
-  select {
-    background: #fff;
-    border: 1px solid #ccc;
-    border-radius: 3px;
-    box-sizing: border-box;
-    box-shadow: #ddd inset 0 0 5px 0;
-    display: block;
-    margin: 5px 0 1rem 0;
-    max-width: 100%;
-    padding: 0.75rem 0.9rem;
-    width: 100%;
-  }
-
-  textarea {
-    line-height: 1.4;
-    min-height: 140px;
-    resize: vertical;
-  }
-
-  input:disabled,
-  textarea:disabled,
-  select:disabled,
-  button:disabled {
-    opacity: 0.5;
-    cursor: not-allowed;
-  }
-
-  input:focus-visible,
-  textarea:focus-visible,
-  select:focus-visible {
-    border-color: #222;
-    outline: 5px solid gold;
-    outline-offset: 0;
-  }
-
-  button {
-    border: 1px solid #222;
-    background: #222;
-    border-radius: 3px;
-    color: #fff;
-    cursor: pointer;
-    padding: 0.75rem 1rem;
-  }
-
-  button:hover,
-  button:active {
-    background: #890309;
-    border-color: #890309;
-  }
-
-  button:focus {
-    background: gold;
-    border-color: gold;
-    color: #222;
-  }
 
 
 
 
-
-  
   /* ### HEADER & FOOTER */
 
   header,
@@ -697,6 +620,29 @@ Validated  2026.04.02
 
 
   /* ### CONTENT */
+
+
+  /* Professional summary */
+
+  a.resume {
+    border: 1px solid #111;
+    border-radius: 3px;
+    padding: 9px 16px 9px 12px;
+    text-decoration: none;
+  }
+
+  a.resume::before {
+    content: "&darr; ";
+    display: inline-block;
+    margin-right: 0.25em;
+    position: relative; top: -2px;
+    text-decoration: none;
+  }
+
+  a.resume:hover {
+    background: gold;
+  }
+
 
 
   /* Articles list */
