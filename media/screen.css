@@ -209,7 +209,6 @@ Validated  2026.04.02
 
   a:focus-visible {
     outline: 2px solid gold;
-    outline-offset: 2px;
     background: gold;
   }
 
@@ -579,16 +578,6 @@ Validated  2026.04.02
     color: #fff;
     text-decoration: none;
   }
-
-  /*header a:focus, TO DELETE
-  footer a:focus {
-    outline: none;
-  }
-  
-  header a:focus-visible,
-  footer a:focus-visible {
-    outline: none;
-  }*/
 
   header i,
   footer i {
