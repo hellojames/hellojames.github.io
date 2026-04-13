@@ -3,7 +3,7 @@
 /*
 Theme      hellojames screen
 Author     hellojames.co.uk
-Updated    2026.04.02
+Updated    2026.04.13
 Validated  2026.04.02
 */
 
@@ -185,7 +185,7 @@ Validated  2026.04.02
     cursor: pointer;
     text-decoration-thickness: 0.05em;
     text-underline-offset: 0.1em;
-    transition: all /*color*/ 0.2s ease;
+    transition: color 0.2s ease, background-color 0.2s ease;
   }
 
   a:link,
@@ -204,7 +204,13 @@ Validated  2026.04.02
 
   a:focus {
     background: gold;
-    outline: 1px solid gold;
+    outline: none;
+  }
+
+  a:focus-visible {
+    outline: 2px solid gold;
+    outline-offset: 2px;
+    background: gold;
   }
 
   a:active {
@@ -574,7 +580,7 @@ Validated  2026.04.02
     text-decoration: none;
   }
 
-  header a:focus,
+  /*header a:focus, TO DELETE
   footer a:focus {
     outline: none;
   }
@@ -582,7 +588,7 @@ Validated  2026.04.02
   header a:focus-visible,
   footer a:focus-visible {
     outline: none;
-  }
+  }*/
 
   header i,
   footer i {
