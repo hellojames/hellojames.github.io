@@ -48,7 +48,7 @@ Validated  2026.04.02
     }
 
     a {
-        border-bottom: 1px dotted lightgray;
+        border-bottom: 1px dotted gray;
         color: black;
         text-decoration: none;
     }
@@ -148,6 +148,16 @@ Validated  2026.04.02
 
     .articles li p {
         margin: 0.5em 0;
+    }
+
+
+
+
+
+    /* ### FOOTER */
+
+    footer {
+        display: none;
     }
 
 

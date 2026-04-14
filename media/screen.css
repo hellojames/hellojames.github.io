@@ -3,7 +3,7 @@
 /*
 Theme      hellojames screen
 Author     hellojames.co.uk
-Updated    2026.04.13
+Updated    2026.04.14
 Validated  2026.04.02
 */
 
@@ -619,14 +619,15 @@ Validated  2026.04.02
 
   /* Professional summary */
 
-  a.resume {
+  a.summary {
     border: 1px solid #111;
     border-radius: 3px;
+    margin-top: 0.65em;
     padding: 9px 16px 9px 12px;
     text-decoration: none;
   }
 
-  a.resume::before {
+  a.summary::before {
     content: "\2193 ";
     display: inline-block;
     margin-right: 0.25em;
@@ -634,11 +635,11 @@ Validated  2026.04.02
     text-decoration: none;
   }
 
-  a.resume:hover {
+  a.summary:hover {
     background: gold;
   }
 
-  a.resume:active {
+  a.summary:active {
     background: #890309;
     color: #fff;
   }
