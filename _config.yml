@@ -2,3 +2,5 @@ baseurl: ""
 url: "https://hellojames.co.uk"
 title: hellojames
 description: I&#39;m a designer who helps organisations build great in‑house teams and digital services.
+plugins:
+  - jekyll-redirect-from
