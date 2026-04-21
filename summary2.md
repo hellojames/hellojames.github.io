@@ -1,8 +1,3 @@
----
-layout: default
-title: Summary
----
-
 2026 Professional Summary <br>
 *for [humans](#) • [machines](#)*
 
