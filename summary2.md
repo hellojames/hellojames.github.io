@@ -5,7 +5,7 @@
 
 <br>
 
-**James Cook**  
+**James Cook**  a
 Bristol, United Kingdom
 
 **Seasoned designer with 20+ years’ experience** developing teams, leading people, improving design operations, and delivering enterprise software systems
