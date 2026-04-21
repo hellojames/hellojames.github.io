@@ -216,6 +216,33 @@ Validated  2026.04.02
     color: #890309;
   }
 
+  a.button {
+    border: 1px solid #111;
+    border-radius: 3px;
+    display: inline-block;
+    margin-top: 0.35em;
+    padding: 7px 16px 7px 12px;
+    text-decoration: none;
+  }
+
+  /* Download arrow icon
+  a.button::before {
+    content: "\2193 ";
+    display: inline-block;
+    margin-right: 0.25em;
+    position: relative; top: -2px;
+    text-decoration: none;
+  }*/
+
+  a.button:hover {
+    background: gold;
+  }
+
+  a.button:active {
+    background: #890309;
+    color: #fff;
+  }
+
 
   /* typography */
 
@@ -615,36 +642,6 @@ Validated  2026.04.02
 
 
   /* ### CONTENT */
-
-
-  /* Professional summary */
-
-  a.summary {
-    border: 1px solid #111;
-    border-radius: 3px;
-    display: inline-block;
-    margin-top: 0.35em;
-    padding: 7px 16px 7px 12px;
-    text-decoration: none;
-  }
-
-  a.summary::before {
-    content: "\2193 ";
-    display: inline-block;
-    margin-right: 0.25em;
-    position: relative; top: -2px;
-    text-decoration: none;
-  }
-
-  a.summary:hover {
-    background: gold;
-  }
-
-  a.summary:active {
-    background: #890309;
-    color: #fff;
-  }
-
 
 
   /* Articles list */
