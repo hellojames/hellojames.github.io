@@ -3,7 +3,7 @@
 /*
 Theme      hellojames screen
 Author     hellojames.co.uk
-Updated    2026.04.14
+Updated    2026.05.12
 Validated  2026.04.02
 */
 
@@ -164,6 +164,15 @@ Validated  2026.04.02
     font-size: 16px; /* base */
     padding: 40px 20px 8em 20px;
   }
+
+    @media screen and (min-width: 1050px) { /* 2026.05 styles hack to zoom page on larger viewports; refactor CSS properly if keeping larger font-size & layout */
+      body {
+        zoom: 120%;
+      }
+      header, footer {
+        font-size: 0.5em;
+      }
+    }
 
   .wrapper {
     font-size: 1.2em;
