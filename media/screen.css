@@ -167,10 +167,10 @@ Validated  2026.04.02
 
     @media screen and (min-width: 1050px) { /* 2026.05 styles hack to zoom page on larger viewports; refactor CSS properly if keeping larger font-size & layout */
       body {
-        zoom: 120%;
+        zoom: 120% !important;
       }
       header, footer {
-        font-size: 0.5em;
+        font-size: 0.4em !important;
       }
     }
 
