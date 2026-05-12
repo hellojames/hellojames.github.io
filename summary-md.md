@@ -1,8 +1,6 @@
 <!--
----
-redirect_to: https://github.com/hellojames/hellojames.github.io/blob/main/summary-md.md
----
-Updated     2026.04.21
+Human-readable: https://github.com/hellojames/hellojames.github.io/edit/main/summary-md.md
+Updated     2026.05.12
 -->
 
 <br>
