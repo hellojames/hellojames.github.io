@@ -1,5 +1,6 @@
 <!--
 Human-readable: https://github.com/hellojames/hellojames.github.io/edit/main/summary-md.md
+GitHub raw: https://raw.githubusercontent.com/hellojames/hellojames.github.io/main/summary-md.md
 Updated     2026.05.12
 -->
 
