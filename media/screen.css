@@ -172,6 +172,9 @@ Validated  2026.04.02
       header, footer {
         font-size: 0.5em !important;
       }
+      h1 {
+        line-height: 0.025em !important;
+      }
     }
 
   .wrapper {
