@@ -20,7 +20,7 @@ Bristol, United Kingdom
 **Seasoned designer with 20+ years’ experience** developing teams, leading people, improving design operations, and delivering enterprise software systems
 
 [hellojames.co.uk](https://hellojames.co.uk "hellojames.co.uk") • [LinkedIn](https://linkedin.com/in/hellojames "linkedin.com/in/hellojames") • [ADPList](https://adplist.org/mentors/james-cook "adplist.org/mentors/james-cook")  
-Professional Summary for: [humans](https://hellojames.co.uk/summary "hellojames.co.uk/summary") • [machines](https://hellojames.co.uk/summary-md "hellojames.co.uk/summary-md")  
+Professional Summary for: [humans](https://hellojames.co.uk/media/James-Cook-summary.pdf "View PDF") • [robots](https://hellojames.co.uk/media/James-Cook-summary.md "View Markdown")  
 *Work samples on request*
 
 <br>
