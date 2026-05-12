@@ -38,6 +38,16 @@ xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
 	
 	
 	<item>
+		<title>Design by autocomplete</title>
+		<link>https://hellojames.co.uk/writing/design-autocomplete</link>
+		<description>Generative AI is the internet's latest craze &mdash; there's much focus on what these magical tools can do for product and user experience. But how much of our research and design process should we want to automate?</description>
+		<pubDate>Tue, 16 Jan 2024 12:00:00 GMT</pubDate>
+		<dc:creator>hellojames.co.uk</dc:creator>
+	</item>
+	
+	
+	
+	<item>
 		<title>What the Ancient Egyptians teach us about iteration</title>
 		<link>https://hellojames.co.uk/writing/egyptian-iteration/</link>
 		<description>Building software is continuous. When we start something, we know the least about what it is we need to do — only ever learning more as we progress. So why do we often decide what it will be in the end, at the beginning?</description>
