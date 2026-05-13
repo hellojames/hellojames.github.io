@@ -237,15 +237,6 @@ Validated  2026.05.13
     text-decoration: none;
   }
 
-  /* Download arrow icon
-  a.button::before {
-    content: "\2193 ";
-    display: inline-block;
-    margin-right: 0.25em;
-    position: relative; top: -2px;
-    text-decoration: none;
-  }*/
-
   a.button:hover {
     background: gold;
   }
@@ -271,15 +262,13 @@ Validated  2026.05.13
     /*max-width: 95%; 2026.04 */
   }
 
-  h1 span {
-    display: inline-block;
+  h1 u {
+    display: block;
     margin-bottom: -1.2em;
-    text-decoration: underline;
   }
 
-  h1 span::after {
-    content: "👋";
-    background: red:
+  h1 u::after {
+    content: "\1F44B";
     font-size: 0.85em;
     margin-left: 0.5em;
   }
