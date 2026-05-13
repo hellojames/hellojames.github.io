@@ -761,6 +761,12 @@ Validated  2026.05.13
   }
 
 
+  /* colophon only */
+
+  #colophon p:first-child small {
+    font-variant: all-small-caps;
+  }
+
   /* #writing only */
   
   @media screen and (max-width: 605px) {
