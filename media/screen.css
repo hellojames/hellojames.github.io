@@ -152,13 +152,8 @@ Validated  2026.05.13
   /* layout */
 
   html {
- /*   background: #dadada;*/
+    background: #dadada;
     scroll-behavior: smooth;
-
-        background-image: url("bg-photo.jpg");
-    background-position: top right;
-    background-repeat: no-repeat;
-    background-size: 61%;
   }
 
   body {
@@ -768,14 +763,15 @@ Validated  2026.05.13
   /* Page overides */
 
 
-  /* homepage only *
+  /* homepage only */
 
   body.home {
+    background-attachment: fixed;
     background-image: url("bg-photo.jpg");
     background-position: top right;
     background-repeat: no-repeat;
     background-size: 61%;
-  }*/
+  }
 
   body.home .wrapper {
     max-width: 1280px;
@@ -796,6 +792,7 @@ Validated  2026.05.13
     font-variant: all-small-caps;
   }
 
+  
   /* #writing only */
   
   @media screen and (max-width: 605px) {
@@ -846,8 +843,6 @@ Validated  2026.05.13
     margin-top: -5px;
   }
 
-
-  
   #continuous-design iframe { /* for Google Drive video embed */
     aspect-ratio: 16 / 9;
     border: 0;
