@@ -182,7 +182,7 @@ Validated  2026.05.13
     font-size: 1.2em;
     line-height: 1.6;
     margin: 0 auto;
-    max-width: 900px; /* previous: 955px */
+    max-width: 900px;
   }
 
     @media screen and (min-width: 1050px) {
@@ -765,6 +765,10 @@ Validated  2026.05.13
 
 
   /* homepage only */
+
+  #home .wrapper {
+      max-width: 1280px;
+    }
 
   #home p:nth-child(2) {
     letter-spacing: -0.005em;
