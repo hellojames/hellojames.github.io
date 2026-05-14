@@ -152,7 +152,7 @@ Validated  2026.05.13
   /* layout */
 
   html {
-    background: #dadada;
+    background: #e8e8e8  ;
     scroll-behavior: smooth;
   }
 
@@ -766,7 +766,7 @@ Validated  2026.05.13
   /* homepage only */
 
   body.home {
-    background-attachment: fixed;
+    /*background-attachment: fixed;*/
     background-image: url("bg-photo.jpg");
     background-position: top right;
     background-repeat: no-repeat;
