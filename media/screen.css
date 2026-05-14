@@ -165,7 +165,8 @@ Validated  2026.05.13
     padding: 40px 20px 8em 20px;
   }
 
-    @media screen and (min-width: 1050px) { /* 2026.05 styles hack to zoom page on larger viewports; refactor CSS properly if keeping larger font-size & layout */
+    /* 2026.05 styles hack to zoom page on larger viewports; refactor CSS properly if keeping larger font-size & layout */
+    @media screen and (min-width: 1050px) { 
       body {
         zoom: 120% !important;
       }
@@ -262,6 +263,12 @@ Validated  2026.05.13
     /*max-width: 95%; 2026.04 */
   }
 
+  h1 u {
+    display: block;
+    margin-bottom: -1.25em;
+  }
+
+  /* 2026.05 deprecated styles for hand-wave emoji 
   h1 span {
     display: block;
     margin-bottom: -1.25em;
@@ -273,8 +280,9 @@ Validated  2026.05.13
     font-size: 0.8em;
     margin-left: 0.25em;
     position: absolute; bottom: 0;
-    /*position: relative; top: -3px; 2026.05 */
+    /*position: relative; top: -3px; 2026.05 *
   }
+  */
 
   h1 br {margin-bottom: 0.4em;}
 
