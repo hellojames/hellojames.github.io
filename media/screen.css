@@ -154,6 +154,7 @@ Validated  2026.05.13
   /* layout */
 
   html {
+    background: #eee;
     scroll-behavior: smooth;
   }
 
@@ -770,11 +771,15 @@ Validated  2026.05.13
     background-image: url("bg-photo.jpg");
     background-position: top right;
     background-repeat: no-repeat;
-    background-size: 70.5%;
+    background-size: 61%;
   }
 
   body.home .wrapper {
     max-width: 1280px;
+  }
+
+  body.home h1 {
+    margin-bottom: 1.5em;
   }
 
   #home p:nth-child(2) {
