@@ -770,7 +770,7 @@ Validated  2026.05.13
     background-image: url("bg-photo.jpg");
     background-position: top right;
     background-repeat: no-repeat;
-    background-size: auto;
+    background-size: 70.5%;
   }
 
   body.home .wrapper {
