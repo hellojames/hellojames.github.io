@@ -767,8 +767,12 @@ Validated  2026.05.13
   /* homepage only */
 
   #home .wrapper {
-      max-width: 1280px;
-    }
+    background-image: url("bg-photo.jpg")
+    background-position: top right;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    max-width: 1280px;
+  }
 
   #home p:nth-child(2) {
     letter-spacing: -0.005em;
