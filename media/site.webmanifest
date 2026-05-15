@@ -3,13 +3,13 @@
   "short_name": "hellojames",
   "icons": [
     {
-      "src": "/media/favicon-web-app-manifest-192x192.png?v=20260515",
+      "src": "/media/favicon-web-app-manifest-192x192.png",
       "sizes": "192x192",
       "type": "image/png",
       "purpose": "maskable"
     },
     {
-      "src": "/media/favicon-web-app-manifest-512x512.png?v=20260515",
+      "src": "/media/favicon-web-app-manifest-512x512.png",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "maskable"
