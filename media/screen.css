@@ -257,6 +257,7 @@ Validated  2026.05.13
     color: #1c1c1c;
     font-size: 2.5em;
     font-weight: 400;
+    letter-spacing: -0.025em;
     line-height: 1;
     margin: 1em 0 0.75em;
     /*max-width: 95%; 2026.04 */
@@ -302,7 +303,7 @@ Validated  2026.05.13
     @media screen and (min-width: 1050px) {
       h1 {
         font-size: 3.5em;
-        letter-spacing: -0.025em;
+        letter-spacing: -0.035em;
         line-height: 1.1;
         margin-bottom: 0.6em;
       }
