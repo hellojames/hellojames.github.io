@@ -770,7 +770,7 @@ Validated  2026.05.13
     background-image: url("bg-photo.jpg");
     background-position: top left;
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: 510px auto; /* 100% */
   }
 
   body.home .wrapper {
@@ -784,8 +784,16 @@ Validated  2026.05.13
   body.home h1 {
     margin-bottom: 0.5em;
   }
-  
+
+
     @media screen and (min-width: 1050px) { 
+      body.home {
+        
+      }
+    }
+
+  
+    @media screen and (min-width: 1445px) { /* 1050px */
       body.home {
         background-position: top right;
         background-size: 937px 660px;
