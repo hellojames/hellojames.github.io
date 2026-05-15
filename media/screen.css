@@ -785,7 +785,7 @@ Validated  2026.05.13
     margin-bottom: 0.5em;
   }
   
-    @media screen and (min-width: 800px) { 
+    @media screen and (min-width: 1050px) { 
       body.home {
         background-position: top right;
         background-size: 937px 660px;
