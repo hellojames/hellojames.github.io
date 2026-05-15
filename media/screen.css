@@ -263,10 +263,18 @@ Validated  2026.05.13
     /*max-width: 95%; 2026.04 */
   }
 
+  h1 br {
+    content: "";
+    display: block;
+    margin-top: -0.225em;  
+  }
+  
+  /*
   h1 u {
     display: block;
     margin-bottom: -1.25em;
   }
+  */
 
   /* 2026.05 deprecated styles for hand-wave emoji 
   h1 span {
