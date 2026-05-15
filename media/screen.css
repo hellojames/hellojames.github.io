@@ -774,42 +774,42 @@ Validated  2026.05.13
 
   /* homepage only */
 
-  body.home {
+  body.homepage {
     background-image: url("bg-photo.jpg");
     background-position: top left;
     background-repeat: no-repeat;
     background-size: 510px auto;
   }
 
-  body.home .wrapper {
+  body.homepage .wrapper {
     max-width: 1280px;
   }
 
-  body.home header {
+  body.homepage header {
     margin-top: 16em;
   }
   
-  body.home h1 {
+  body.homepage h1 {
     margin-bottom: 0.5em;
   }
 
 
     @media screen and (min-width: 1050px) { 
-      body.home {
+      body.homepage {
         background-size: 65vw auto;
       }
     }
 
   
     @media screen and (min-width: 1445px) { /* 1050px */
-      body.home {
+      body.homepage {
         background-position: top right;
         background-size: 937px 660px;
       }
-      body.home header {
+      body.homepage header {
         margin-top: 5em;
       }    
-      body.home h1 {
+      body.homepage h1 {
         margin-bottom: 1.5em;
       }
     }
@@ -817,62 +817,62 @@ Validated  2026.05.13
   
   /* colophon only */
 
-  #colophon p:first-child small {
+  .colophon p:first-child small {
     font-variant: all-small-caps;
   }
 
   
-  /* #writing only */
+  /* writing only */
   
   @media screen and (max-width: 605px) {
-    #writing br {
+    .writing br {
       display: none !important;
     }
   }    
   
   
-  /* #better-feedback only */
+  /* better-feedback only */
   
-  /* #better-feedback figure {margin-left: -10px;} 2022.04 */
+  /* better-feedback figure {margin-left: -10px;} 2022.04 */
 
   @media screen and (min-width: 850px) {
-    #better-feedback figcaption {
+    .better-feedback figcaption {
       margin-top: -12px;
       margin-left: 12px;
     }
     
-    #better-feedback > p:nth-child(3) {
+    .better-feedback > p:nth-child(3) {
       width: 89%;
     }
   }
 
 
-  /* #egyptian-iteration only */
+  /* egyptian-iteration only */
   
-  #egyptian-iteration > p:nth-child(19) {
+  .egyptian-iteration > p:nth-child(19) {
     letter-spacing: -0.005em;
   }
   
-  #egyptian-iteration > p:nth-child(39) {
+  .egyptian-iteration > p:nth-child(39) {
     letter-spacing: -0.006em;
   }
 
-  /*#egyptian-iteration figure.illustration {margin-top: 3em;} 2022.04 */
+  /*.egyptian-iteration figure.illustration {margin-top: 3em;} 2022.04 */
 
 
-  /* #continuous-design only */
+  /* continuous-design only */
 
-  #continuous-design .video,
-  #continuous-design iframe {
+  .continuous-design .video,
+  .continuous-design iframe {
     overflow: hidden;
   }
 
-  #continuous-design .video video,
-  #continuous-design iframe {
+  .continuous-design .video video,
+  .continuous-design iframe {
     margin-top: -5px;
   }
 
-  #continuous-design iframe { /* for Google Drive video embed */
+  .continuous-design iframe { /* for Google Drive video embed */
     aspect-ratio: 16 / 9;
     border: 0;
     display: block;
@@ -898,4 +898,21 @@ Validated  2026.05.13
 
 
 /* /end screen */
+
+
+  .skip-to-content-link {
+  background: #e77e23;
+  height: 30px;
+  left: 50%;
+  padding: 8px;
+  position: absolute;
+  transform: translateY(-100%);
+  transition: transform 0.3s;
+}
+
+.skip-to-content-link:focus {
+  transform: translateY(0%);
+}
+
+  
 }
