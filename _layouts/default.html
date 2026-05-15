@@ -3,30 +3,34 @@ layout: default
 header_mode: home
 ---
 <!--
-Updated     2026.05.12
-Validated   2026.04.02
+Updated     2026.05.15
+Validated   2026.05.15
 -->
 
 <!doctype html>
 
 <html lang="en">
   <head>
+    <!-- meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
     <meta name="description" content="Hello, I’m James. I’m a design leader who helps organisations build great in-house teams and digital services.">
     <title>{{ page.title }} | hellojames</title>
     <link rel="canonical" href="https://hellojames.co.uk">
+    <!-- presentation -->
     <link rel="stylesheet" media="screen" href="{{ '/media/screen.css' | relative_url }}">
     <link rel="stylesheet" media="print" href="{{ '/media/print.css' | relative_url }}">
     <link rel="alternate" type="application/rss+xml" title="hellojames" href="{{ '/writing/feed.xml' | relative_url }}l">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Anonymous+Pro&display=swap" rel="stylesheet"> 
-    <!--
-    <link rel="shortcut icon" type="image/jpg" href="#">
-    <link rel="apple-touch-icon" href="#">
-    <noscript></noscript>
-    -->
+    <!-- icons -->
+    <link rel="icon" type="image/png" href="/media/favicon-96x96.png?v=20260515" sizes="96x96" />
+    <link rel="icon" type="image/svg+xml" href="/media/favicon.svg?v=20260515" />
+    <link rel="shortcut icon" href="/media/favicon.ico?v=20260515" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/media/favicon-apple-touch-icon.png?v=20260515" />
+    <meta name="apple-mobile-web-app-title" content="hellojames" />
+    <link rel="manifest" href="/media/site.webmanifest?v=20260515" />
   </head>
 
   <body id="top" {% if page.url == "/" %} class="home"{% endif %}>
