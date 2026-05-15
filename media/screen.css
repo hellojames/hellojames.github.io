@@ -238,7 +238,21 @@ Validated  2026.05.13
   a:active {
     color: #;
   }
-
+  
+  a.skip-to-content {
+    background: #f9d949;
+    font-family: 'Anonymous Pro';
+    font-size: 12px;
+    padding: 8px;
+    position: absolute; left: 0; top: 0;
+    transform: translateY(-100%);
+    transition: transform 0.3s;
+  }
+  
+  a.skip-to-content:focus {
+    transform: translateY(0%);
+  }
+  
   a.button {
     border: 1px solid #111;
     border-radius: 3px;
@@ -909,21 +923,4 @@ Validated  2026.05.13
 
 
 /* /end screen */
-
-
-.skip-to-content {
-  background: #e77e23;
-  height: 30px;
-  left: 50%;
-  padding: 8px;
-  position: absolute;
-  transform: translateY(-100%);
-  transition: transform 0.3s;
-}
-
-.skip-to-content:focus {
-  transform: translateY(0%);
-}
-
-  
 }
