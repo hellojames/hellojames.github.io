@@ -149,8 +149,19 @@ Validated  2026.05.13
   /* ### GLOBAL */
 
 
+
+
   /* layout */
 
+  /* 
+  :root {
+  --white: #e8e8e8;
+  --black: #222;
+  --gold: #f9d949;
+  --red: #890309;
+  }
+  */
+  
   html {
     background: #e8e8e8  ;
     scroll-behavior: smooth;
@@ -225,7 +236,7 @@ Validated  2026.05.13
   }
 
   a:active {
-    color: #890309;
+    color: #;
   }
 
   a.button {
@@ -900,7 +911,7 @@ Validated  2026.05.13
 /* /end screen */
 
 
-  .skip-to-content-link {
+.skip-to-content {
   background: #e77e23;
   height: 30px;
   left: 50%;
@@ -910,7 +921,7 @@ Validated  2026.05.13
   transition: transform 0.3s;
 }
 
-.skip-to-content-link:focus {
+.skip-to-content:focus {
   transform: translateY(0%);
 }
 
