@@ -153,17 +153,15 @@ Validated  2026.05.13
 
   /* layout */
 
-  /* 
   :root {
   --white: #e8e8e8;
   --black: #222;
   --gold: #f9d949;
   --red: #890309;
   }
-  */
   
   html {
-    background: #e8e8e8  ;
+    background: /*#e8e8e8*/var(--white);
     scroll-behavior: smooth;
   }
 
@@ -236,7 +234,7 @@ Validated  2026.05.13
   }
 
   a:active {
-    color: #;
+    color: blue;
   }
   
   a.skip-to-content {
