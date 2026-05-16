@@ -161,7 +161,7 @@ Validated  2026.05.13
   }
   
   html {
-    background: /*#e8e8e8*/var(--white);
+    background: var(--white);
     scroll-behavior: smooth;
   }
 
@@ -173,18 +173,18 @@ Validated  2026.05.13
     padding: 40px 20px 8em 20px;
   }
 
-    /* 2026.05 styles hack to zoom page on larger viewports; refactor CSS properly if keeping larger font-size & layout */
-    @media screen and (min-width: 1050px) { 
-      body {
-        zoom: 120% !important;
-      }
-      header, footer {
-        font-size: 0.5em !important;
-      }
-      h1 {
-        line-height: 1.025em !important;
-      }
+  /* 2026.05 styles hack to zoom page on larger viewports; refactor CSS properly if keeping larger font-size & layout */
+  @media screen and (min-width: 1050px) { 
+    body {
+      zoom: 120% !important;
     }
+    header, footer {
+      font-size: 0.5em !important;
+    }
+    h1 {
+      line-height: 1.025em !important;
+    }
+  }
 
   .wrapper {
     font-size: 1.2em;
@@ -193,11 +193,11 @@ Validated  2026.05.13
     max-width: 900px;
   }
 
-    @media screen and (min-width: 1050px) {
-      .wrapper {
-        font-size: 1.5em;
-      }
+  @media screen and (min-width: 1050px) {
+    .wrapper {
+      font-size: 1.5em;
     }
+  }
 
 
   /* hyperlinks */
@@ -288,29 +288,29 @@ Validated  2026.05.13
     /*max-width: 95%; 2026.04 */
   }
 
-    @media screen and (min-width: 500px) {
-      h1 {
-        font-size: 2.8em;
-        margin-bottom: 0.5em;
-      }
+  @media screen and (min-width: 500px) {
+    h1 {
+      font-size: 2.8em;
+      margin-bottom: 0.5em;
     }
+  }
     
-    @media screen and (min-width: 600px) {
-      h1 {
-        font-size: 3.2em;
-        margin-bottom: 0.75em;
-        padding-top: 1.35em;
-      }
+  @media screen and (min-width: 600px) {
+    h1 {
+      font-size: 3.2em;
+      margin-bottom: 0.75em;
+      padding-top: 1.35em;
     }
+  }
 
-    @media screen and (min-width: 1050px) {
-      h1 {
-        font-size: 3.5em;
-        letter-spacing: -0.035em;
-        line-height: 1.1;
-        margin-bottom: 0.6em;
-      }
+  @media screen and (min-width: 1050px) {
+    h1 {
+      font-size: 3.5em;
+      letter-spacing: -0.035em;
+      line-height: 1.1;
+      margin-bottom: 0.6em;
     }
+  }
   
   /* 2026.05 deprecated due to safari block spacing bug
   h1 u {
@@ -338,7 +338,13 @@ Validated  2026.05.13
   h1 br {
     content: "";
     display: block;
-    margin-bottom: 0.175em; 
+    margin-bottom: 0.3em; 
+  }
+  
+  @media screen and (min-width: 1050px) {
+    h1 br {
+      margin-bottom: 0.175em;
+    }
   }
   
   h2 {
@@ -401,11 +407,11 @@ Validated  2026.05.13
     padding: 0;
   }
 
-    @media screen and (min-width: 750px) {
-      blockquote {
-        max-width: 75%;
-      }
+  @media screen and (min-width: 750px) {
+    blockquote {
+      max-width: 75%;
     }
+  }
 
   blockquote span {
     background: #f5f5f5;
@@ -414,12 +420,12 @@ Validated  2026.05.13
     padding: 20px 0 13px 0;
   }
 
-    @media screen and (min-width: 920px) {
-      blockquote span {
-        margin-left: -22px;
-        padding-left: 22px;
-      }
+  @media screen and (min-width: 920px) {
+    blockquote span {
+      margin-left: -22px;
+      padding-left: 22px;
     }
+  }
 
   blockquote small {
     display: block;
@@ -458,12 +464,12 @@ Validated  2026.05.13
     margin: -1.25em 0 2.25em 0;
   }
 
-    @media screen and (min-width: 1050px) {
-      p.footnote {
-        font-size: 0.6em;
-        margin-top:  -1.5em;
-      }
+  @media screen and (min-width: 1050px) {
+    p.footnote {
+      font-size: 0.6em;
+      margin-top:  -1.5em;
     }
+  }
 
   p.footnote .asterisk {
     margin-left: -16px;
@@ -482,11 +488,11 @@ Validated  2026.05.13
     font-size: 0.75em;
   }
 
-    @media screen and (min-width: 1050px) {
-      figcaption small {
-        font-size: 0.6em;
-      }
+  @media screen and (min-width: 1050px) {
+    figcaption small {
+      font-size: 0.6em;
     }
+  }
 
   figcaption small a:link,
   figcaption small a:visited {
@@ -534,17 +540,17 @@ Validated  2026.05.13
     margin: 4em 0;
   }
 
-    @media screen and (min-width: 550px) {
-      .form {
-        width: 75%;
-      }
+  @media screen and (min-width: 550px) {
+    .form {
+      width: 75%;
     }
+  }
 
-    @media screen and (min-width: 800px) {
-      .form {
-        width: 60%;
-      }
+  @media screen and (min-width: 800px) {
+    .form {
+      width: 60%;
     }
+  }
   
   input,
   textarea,
@@ -620,11 +626,11 @@ Validated  2026.05.13
   }
 
   @media screen and (min-width: 1050px) {
-      header, 
-      footer {
-        font-size: 0.6em;
-      }
+    header, 
+    footer {
+      font-size: 0.6em;
     }
+  }
 
   header {
     margin: 5em 0 0 /*5.5em 2026.05 */ -0.25em;
@@ -743,11 +749,11 @@ Validated  2026.05.13
     margin: 0.25em 0 0;
   }
 
-    @media screen and (min-width: 710px) {
-      .articles li p {
-        max-width: 80%;
-      }
+  @media screen and (min-width: 710px) {
+    .articles li p {
+      max-width: 80%;
     }
+  }
 
   .articles li a:hover p,
   .articles li a:active p {
@@ -769,27 +775,27 @@ Validated  2026.05.13
     margin-top: -3.2em;
   }
 
-    @media screen and (min-width: 500px) {
-      article > figure:nth-child(2),
-      article > .video:nth-child(2) {
-        margin-top: -3.6em;
-      }
+  @media screen and (min-width: 500px) {
+    article > figure:nth-child(2),
+    article > .video:nth-child(2) {
+      margin-top: -3.6em;
     }
+  }
 
-    @media screen and (min-width: 600px) {
-      article > figure:nth-child(2),
-      article > .video:nth-child(2) {
-        margin-top: -4.6em;
-      }
+  @media screen and (min-width: 600px) {
+    article > figure:nth-child(2),
+    article > .video:nth-child(2) {
+      margin-top: -4.6em;
     }
+  }
 
-    @media screen and (min-width: 1050px) {
-      article > figure:nth-child(2),
-      article > .video:nth-child(2) {
-        margin-top: -5.9em;
-        margin-left: -5em; /* top: 4.2em */
-      }
-    } 
+  @media screen and (min-width: 1050px) {
+    article > figure:nth-child(2),
+    article > .video:nth-child(2) {
+      margin-top: -5.9em;
+      margin-left: -5em; /* top: 4.2em */
+    }
+  } 
 
 
 
@@ -817,32 +823,30 @@ Validated  2026.05.13
     margin-bottom: 0.5em;
   }
 
-
-    @media screen and (min-width: 1050px) { 
-      body.homepage {
-        background-size: 65vw auto;
-      }
-      body.homepage header {
-        margin-top: 15.5em;
-      }
-      body.homepage #content p {
-        max-width: 72%;
-      }
+  @media screen and (min-width: 1050px) { 
+    body.homepage {
+      background-size: 65vw auto;
     }
-
+    body.homepage header {
+      margin-top: 15.5em;
+    }
+    body.homepage #content p {
+      max-width: 72%;
+    }
+  }
   
-    @media screen and (min-width: 1445px) { /* 1050px */
-      body.homepage {
-        background-position: top right;
-        background-size: 937px 660px;
-      }
-      body.homepage header {
-        margin-top: 5em;
-      }    
-      body.homepage h1 {
-        margin-bottom: 1em;
-      }
+  @media screen and (min-width: 1445px) { /* 1050px */
+    body.homepage {
+      background-position: top right;
+      background-size: 937px 660px;
     }
+    body.homepage header {
+      margin-top: 5em;
+    }    
+    body.homepage h1 {
+      margin-bottom: 1em;
+    }
+  }
 
   
   /* colophon only */
@@ -870,7 +874,6 @@ Validated  2026.05.13
       margin-top: -12px;
       margin-left: 12px;
     }
-    
     .better-feedback > p:nth-child(3) {
       width: 89%;
     }
