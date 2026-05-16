@@ -3,8 +3,8 @@
 /*
 Theme      hellojames screen
 Author     hellojames.co.uk
-Updated    2026.05.13
-Validated  2026.05.13
+Updated    2026.05.16
+Validated  2026.05.16
 */
 
 @media screen {
@@ -154,20 +154,24 @@ Validated  2026.05.13
   /* layout */
 
   :root {
-  --white: #e8e8e8;
+  --white: #fcfcfc;
+  --bg-white: #fff;
+  --bg-grey: #e8e8e8;  
   --black: #222;
   --gold: #f9d949;
   --red: #890309;
+  /*--blue-link: #245291;*/
+  /*--blue-hover: #2839be;*/
   }
   
   html {
-    background: var(--white);
+    background: var(--bg-grey);
     scroll-behavior: smooth;
   }
 
   body {
-    background: #fcfcfc; /* previous: #f9f7eb */
-    color: #222;
+    background: var(--white);
+    color: var(--black);
     font-family: Georgia, serif;
     font-size: 16px; /* base */
     padding: 40px 20px 8em 20px;
@@ -211,7 +215,7 @@ Validated  2026.05.13
 
   a:link,
   a:visited {
-    color: #222; /* previous: 245291 */
+    color: var(--black);
   }
 
   a:hover, 
@@ -220,17 +224,17 @@ Validated  2026.05.13
   }
 
   a:hover {
-    color: #890309; /* previous: 2839be */
+    color: var(--red);
   }
 
   a:focus {
-    background: gold;
+    background: var(--gold);
     outline: none;
   }
 
   a:focus-visible {
-    outline: 2px solid gold;
-    background: gold;
+    outline: 2px solid var(--gold);
+    background: var(--gold);
   }
 
   a:active {
@@ -238,7 +242,7 @@ Validated  2026.05.13
   }
   
   a.skip-to-content {
-    background: #f9d949;
+    background: var(--gold);
     font-family: 'Anonymous Pro';
     font-size: 12px;
     padding: 8px;
@@ -252,7 +256,7 @@ Validated  2026.05.13
   }
   
   a.button {
-    border: 1px solid #111;
+    border: 1px solid var(--black);
     border-radius: 3px;
     display: inline-block;
     margin-top: 0.35em;
@@ -261,12 +265,12 @@ Validated  2026.05.13
   }
 
   a.button:hover {
-    background: gold;
+    background: var(--gold);
   }
 
   a.button:active {
-    background: #890309;
-    color: #fff;
+    background: var(--red);
+    color: var(--white);
   }
 
 
@@ -277,7 +281,6 @@ Validated  2026.05.13
   }
 
   h1 {
-    color: #1c1c1c;
     font-size: 2.5em;
     font-weight: 400;
     letter-spacing: -0.025em;
@@ -555,7 +558,7 @@ Validated  2026.05.13
   input,
   textarea,
   select {
-    background: #fff;
+    background: var(--bg-white);
     border: 1px solid #ccc;
     border-radius: 3px;
     box-sizing: border-box;
@@ -584,30 +587,30 @@ Validated  2026.05.13
   input:focus-visible,
   textarea:focus-visible,
   select:focus-visible {
-    border-color: #222;
-    outline: 5px solid gold;
+    border-color: var(--black);
+    outline: 5px solid var(--gold);
     outline-offset: 0;
   }
 
   button {
-    border: 1px solid #222;
-    background: #222;
+    border: 1px solid var(--black);
+    background: var(--black);
     border-radius: 3px;
-    color: #fff;
+    color: var(--white);
     cursor: pointer;
     padding: 0.75rem 1rem;
   }
 
   button:hover,
   button:active {
-    background: #890309;
-    border-color: #890309;
+    background: var(--red);
+    border-color: var(--red);
   }
 
   button:focus-visible {
-    border-color: #222;
-    color: gold;
-    outline: 5px solid gold !important;
+    border-color: var(--black);
+    color: var(--gold);
+    outline: 5px solid var(--gold) !important;
     outline-offset: 0;
   }
 
@@ -658,7 +661,7 @@ Validated  2026.05.13
   header a:visited,
   footer a:link,
   footer a:visited {
-    color: #222;
+    color: var(--black);
   }
 
   header a:hover,
@@ -666,7 +669,7 @@ Validated  2026.05.13
   footer a:hover,
   footer a:active {
     background: #333;
-    color: #fff;
+    color: var(--white);
     text-decoration: none;
   }
 
@@ -695,7 +698,7 @@ Validated  2026.05.13
   }
 
   header .feed {
-    color: #222;
+    color: var(--black);
     padding: 0 5px;
     position: absolute; top: 0; right: 0;
   }
@@ -744,7 +747,7 @@ Validated  2026.05.13
   }
 
   .articles li p {
-    color: #222; 
+    color: var(--black); 
     line-height: 1.5;
     margin: 0.25em 0 0;
   }
@@ -755,11 +758,12 @@ Validated  2026.05.13
     }
   }
 
+  /* 2026.05 deprecated 
   .articles li a:hover p,
   .articles li a:active p {
     color: #2c21eb;
-    /*-o-transition: 0.5s; -ms-transition: 0.5s; -moz-transition: 0.5s; -webkit-transition: 0.5s; transition: 0.5s; 2026.04 */
-  }
+    /*-o-transition: 0.5s; -ms-transition: 0.5s; -moz-transition: 0.5s; -webkit-transition: 0.5s; transition: 0.5s; 2026.04 *
+  }*/
 
 
 
