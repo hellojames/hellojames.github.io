@@ -338,8 +338,7 @@ Validated  2026.05.13
   h1 br {
     content: "";
     display: block;
-    margin-bottom: 0.4em;
-    margin-top: -0.225em;  
+    margin-bottom: 0.175em; 
   }
   
   h2 {
