@@ -828,6 +828,9 @@ Validated  2026.05.13
       body.homepage header {
         margin-top: 15.5em;
       }
+      body.homepage #content p {
+        max-width: 72%;
+      }
     }
 
   
