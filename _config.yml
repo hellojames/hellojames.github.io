@@ -4,3 +4,4 @@ title: hellojames
 description: Hello, I&#39;m James. I&#39;m a design leader who helps organisations build great in-house teams and digital services.
 plugins:
   - jekyll-redirect-from
+  - jekyll-sitemap
