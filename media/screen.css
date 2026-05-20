@@ -683,7 +683,7 @@ Validated  2026.05.16
   }
 
   header .imprint {
-    letter-spacing: 0.005em;
+    letter-spacing: 0;
     margin: 0 1em 0 0;
     padding: 0 5px 4px; 
   }
@@ -692,6 +692,12 @@ Validated  2026.05.16
     font-size: 1.1em;
     margin: 0 -1px;
     position: relative; top: 1px;
+  }
+
+  @media screen and (min-width: 500px) {
+    header .imprint {
+      letter-spacing: 0.02em;
+    }
   }
 
   header .feed {
