@@ -690,6 +690,7 @@ Validated  2026.05.16
 
   header .imprint span {
     font-size: 1.1em;
+    margin: 0 -1px;
     position: relative; top: 1px;
   }
 
