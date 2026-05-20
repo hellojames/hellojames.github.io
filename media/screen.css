@@ -3,7 +3,7 @@
 /*
 Theme      hellojames screen
 Author     hellojames.co.uk
-Updated    2026.05.16
+Updated    2026.05.20
 Validated  2026.05.16
 */
 
@@ -683,6 +683,7 @@ Validated  2026.05.16
   }
 
   header .imprint {
+    letter-spacing: 0.015em;
     margin: 0 1em 0 0;
     padding: 0 5px 4px; 
   }
