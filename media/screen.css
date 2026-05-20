@@ -827,6 +827,10 @@ Validated  2026.05.16
     margin-bottom: 0.5em;
   }
 
+  body.homepage .asterisk {
+    color: #777;
+  }
+
   @media screen and (min-width: 1050px) { 
     body.homepage {
       background-size: 65vw auto;
