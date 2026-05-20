@@ -1,7 +1,8 @@
 <!--
+PDF download: https://hellojames.co.uk/media/James-Cook-summary.pdf
 Human-readable: https://github.com/hellojames/hellojames.github.io/edit/main/summary-md.md
 GitHub raw: https://raw.githubusercontent.com/hellojames/hellojames.github.io/main/summary-md.md
-Updated     2026.05.12
+Updated     2026.05.20
 -->
 
 <br>
