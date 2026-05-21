@@ -476,7 +476,7 @@ Validated  2026.05.16
 
   .footnote {
     color: #888;
-    font-family: 'var(--font-mono)';
+    font-family: var(--font-mono);
     font-size: 0.85em;
     letter-spacing: 0.02em;
     margin-left: -4px;
