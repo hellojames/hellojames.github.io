@@ -151,18 +151,54 @@ Validated  2026.05.16
 
 
 
-  /* layout */
-
+  /* variables */
+  
   :root {
-  --white: #fcfcfc;
-  --bg-white: #fff;
-  --bg-grey: #e8e8e8;  
-  --black: #222;
-  --gold: #f9d949;
-  --red: #890309;
-  /*--blue-link: #245291;*/
-  /*--blue-hover: #2839be;*/
+    --font-mono: 'Anonymous Pro', monospace;
+    --white: #fcfcfc;
+    --bg-white: #fff;
+    --bg-grey: #e8e8e8;  
+    --black: #222;
+    --gold: #f9d949;
+    --red: #890309;
+    /*--blue-link: #245291;*/
+    /*--blue-hover: #2839be;*/
   }
+  
+  @font-face {
+    font-family: 'Anonymous Pro';
+    src: url('/media/AnonymousPro-Regular.ttf') format('ttf');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: 'Anonymous Pro';
+    src: url('/media/AnonymousPro-Bold.ttf') format('ttf');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: 'Anonymous Pro';
+    src: url('/media/AnonymousPro-Italic.ttf') format('ttf');
+    font-weight: 400;
+    font-style: italic;
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: 'Anonymous Pro';
+    src: url('/media/AnonymousPro-BoldItalic.ttf') format('ttf');
+    font-weight: 700;
+    font-style: italic;
+    font-display: swap;
+  }
+
+  
+  /* layout */
   
   html {
     background: var(--bg-grey);
@@ -243,7 +279,7 @@ Validated  2026.05.16
   
   a.skip-to-content {
     background: var(--gold);
-    font-family: 'Anonymous Pro';
+    font-family: var(--font-mono);
     font-size: 12px;
     padding: 8px;
     position: absolute; left: 0; top: 0;
@@ -440,7 +476,7 @@ Validated  2026.05.16
 
   .footnote {
     color: #888;
-    font-family: 'Anonymous Pro';
+    font-family: 'var(--font-mono)';
     font-size: 0.85em;
     letter-spacing: 0.02em;
     margin-left: -4px;
@@ -470,7 +506,7 @@ Validated  2026.05.16
 
   figcaption {
     color: #888;
-    font-family: 'Anonymous Pro';
+    font-family: var(--font-mono);
     letter-spacing: 0.02em;
     line-height: 1;
     margin-top: -5px;
@@ -612,7 +648,7 @@ Validated  2026.05.16
 
   header,
   footer {
-    font-family: 'Anonymous Pro';
+    font-family: var(--font-mono);
     font-size: 0.75em;
     letter-spacing: 0.02em;
     line-height: 1.6;
