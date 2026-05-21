@@ -21,6 +21,10 @@ Validated   2026.05.15
     <meta property="og:type" content="website">
     <title>{{ page.title }} | hellojames</title>
     <link rel="canonical" href="https://hellojames.co.uk">
+    <!-- security – developer.mozilla.org/en-US/observatory -->
+    <meta name="referrer" content="strict-origin-when-cross-origin">
+    <meta http-equiv="X-Content-Type-Options" content="nosniff">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' https: data:; style-src 'self' 'unsafe-inline' https:; script-src 'self' https:; font-src 'self' https:; frame-ancestors 'none';">  
     <!-- presentation -->
     <link rel="stylesheet" media="screen" href="{{ '/media/screen.css' | relative_url }}">
     <link rel="stylesheet" media="print" href="{{ '/media/print.css' | relative_url }}">
