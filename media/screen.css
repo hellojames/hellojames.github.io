@@ -167,7 +167,7 @@ Validated  2026.05.16
   
   @font-face {
     font-family: 'Anonymous Pro';
-    src: url('/media/AnonymousPro-Regular.ttf') format('ttf');
+    src: url('/media/AnonymousPro-Regular.woff2') format('woff2');
     font-weight: 400;
     font-style: normal;
     font-display: swap;
@@ -175,7 +175,7 @@ Validated  2026.05.16
 
   @font-face {
     font-family: 'Anonymous Pro';
-    src: url('/media/AnonymousPro-Bold.ttf') format('ttf');
+    src: url('/media/AnonymousPro-Bold.woff2') format('woff2');
     font-weight: 700;
     font-style: normal;
     font-display: swap;
@@ -183,7 +183,7 @@ Validated  2026.05.16
 
   @font-face {
     font-family: 'Anonymous Pro';
-    src: url('/media/AnonymousPro-Italic.ttf') format('ttf');
+    src: url('/media/AnonymousPro-Italic.woff2') format('woff2');
     font-weight: 400;
     font-style: italic;
     font-display: swap;
@@ -191,7 +191,7 @@ Validated  2026.05.16
 
   @font-face {
     font-family: 'Anonymous Pro';
-    src: url('/media/AnonymousPro-BoldItalic.ttf') format('ttf');
+    src: url('/media/AnonymousPro-BoldItalic.woff2') format('woff2');
     font-weight: 700;
     font-style: italic;
     font-display: swap;
