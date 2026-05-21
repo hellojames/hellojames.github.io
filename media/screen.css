@@ -323,8 +323,8 @@ Validated  2026.05.16
     line-height: 1;
     margin: 0 auto 0.75em auto;
     padding-top: 1.5em;
-    /*margin: 1em 0 0.75em;* 2026.05 /
-    /*max-width: 95%; 2026.04 */
+    /*margin: 1em 0 0.75em; 2026.05*/
+    /*max-width: 95%; 2026.04*/
   }
 
   @media screen and (min-width: 500px) {
