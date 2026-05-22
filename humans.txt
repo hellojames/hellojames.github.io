@@ -6,7 +6,8 @@
 # Updated     2026.05.22
 
 
-/* # TEAM */
+# TEAM
+
 Human: James Cook
 From: Bristol, UK
 Role: Designer, developer, writer
@@ -14,7 +15,8 @@ Contact: linkedin.com/in/hellojames
 Mentoring: adplist.org/mentors/james-cook
 
 
-/* # THANKS */
+# THANKS
+
 Cecilia Dobbs
 Cleo Ngiam
 Colin Coles
@@ -22,10 +24,12 @@ Dave Rees
 Darius Kumana
 Melissa Shaw
 Nick Sole
+Paulo Cunha
 Phil Parker
 
 
-/* # SITE */
+# SITE
+
 Updated: {{ site.time | date: "%Y-%m-%d" }}
 Language: British English
 Standards: HTML5, CSS3
