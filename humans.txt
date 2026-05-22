@@ -30,7 +30,7 @@ Phil Parker
 
 # SITE
 
-Updated: {{ site.time | date: "%Y-%m-%d" }}
+Updated: {{ site.time | date: "%Y.%m.%d" }}
 Language: British English
 Standards: HTML5, CSS3
 Components: GitHub Pages, Jekyll
