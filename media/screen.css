@@ -361,20 +361,10 @@ Validated  2026.05.16
       margin-bottom: 0.175em;
     }
   }
-  
-  /* 2026.05 deprecated due to safari block spacing bug
-  h1 br {
-    content: "";
-    display: block;
-    margin-bottom: 0.3em; 
+
+  h1 small {
+    position: relative; top: -5px;
   }
-  
-  @media screen and (min-width: 1050px) {
-    h1 br {
-      margin-bottom: 0.175em;
-    }
-  }
-  */
   
   h2 {
     font-size: 1.8em;
