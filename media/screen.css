@@ -691,6 +691,7 @@ Validated  2026.05.16
 
   header i,
   footer i {
+    font-style: normal;
     margin-right: -1px;
   }
 
@@ -703,10 +704,6 @@ Validated  2026.05.16
   header .hj {
     line-height: 1.7;
   }
-
-  /*header .home {
-    margin-right: 1em;
-  }*/
 
   header .imprint {
     letter-spacing: 0;
