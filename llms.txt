@@ -1,1 +1,5 @@
-LLMs.TXT TBC
+# llms.txt for hellojames.co.uk
+# https://llmstxt.org
+# Updated     2026.05.31
+
+# TBC
