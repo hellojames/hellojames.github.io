@@ -1,1 +1,5 @@
-AGENTS.TXT TBC
+# agents.txt for hellojames.co.uk
+# hhttps://agents-txt.com
+# Updated     2026.05.31
+
+# TBC
