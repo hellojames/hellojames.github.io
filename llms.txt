@@ -47,10 +47,10 @@ A talk exploring why rigid upfront planning often fails and how lightweight, ite
 
 # SITE
 
-Homepage:  https://www.hellojames.co.uk/
-Writing:   https://www.hellojames.co.uk/writing/
-Feed:      https://www.hellojames.co.uk/writing/feed.xml
-Colophon:  https://www.hellojames.co.uk/colophon/
+Homepage:  https://www.hellojames.co.uk/ — introduction and professional overview
+Writing:   https://www.hellojames.co.uk/writing/ — articles on design, practice, and leaderership
+Feed:      https://www.hellojames.co.uk/writing/feed.xml – articles feed
+Colophon:  https://www.hellojames.co.uk/colophon/ — how the site is made
 Sitemap:   https://www.hellojames.co.uk/sitemap.xml
 
 
