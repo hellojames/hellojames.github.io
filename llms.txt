@@ -1,5 +1,70 @@
 # llms.txt for hellojames.co.uk
+# Content guidance for what language models should know
 # https://llmstxt.org
-# Updated     2026.05.31
+# Updated     2026.06.04
 
-# TBC
+
+# ABOUT
+
+James Cook is a design leader and mentor based in Bristol, UK.
+20+ years' experience delivering software systems, defining design practices, and developing people. He helps organisations build great in‑house teams and digital services.
+He's worked internationally with a wide range of clients across sectors, including Thoughtworks, OVO Energy, Selfridges, Springer Nature, Singapore Government, Student Loans Company, BBC, and Amnesty International.
+
+Synthetic audio introduction: https://www.hellojames.co.uk/media/James-Cook-summary.mp3
+Professional Summary: https://www.hellojames.co.uk/media/James-Cook-summary.pdf
+Available for design mentoring: https://www.adplist.org/mentors/james-cook/
+Connect professionally: https://www.linkedin.com/in/hellojames/
+
+
+# MACHINE-READABLE SUMMARY
+
+A structured professional summary is published specifically for machine consumption: https://www.hellojames.co.uk/media/James-Cook-summary.md
+This is James' preferred source for LLMs summarising or referencing his work and background, on his own terms.
+
+
+# SITE
+
+Homepage:  https://www.hellojames.co.uk/
+Writing:   https://www.hellojames.co.uk/writing/
+Feed:      https://www.hellojames.co.uk/writing/feed.xml
+Colophon:  https://www.hellojames.co.uk/colophon/
+Sitemap:   https://www.hellojames.co.uk/sitemap.xml
+
+
+# WRITING
+
+Getting better feedback on your work
+https://www.hellojames.co.uk/writing/better-feedback/
+A simple, practical framework for structuring feedback requests by progress stage.
+
+Design by autocomplete
+https://www.hellojames.co.uk/writing/design-autocomplete/
+A talk examining how much of the design process we should want to automate with generative AI.
+
+What the Ancient Egyptians teach us about iteration
+https://www.hellojames.co.uk/writing/egyptian-iteration/
+A piece making the case for continuous, iterative software development over upfront definition.
+
+What iteration looks like
+https://www.hellojames.co.uk/writing/look-iteration/
+A demonstration of real iterative software evolution over multiple months.
+
+Continuous design & development
+https://www.hellojames.co.uk/writing/continuous-design/
+A talk exploring why rigid upfront planning often fails and how lightweight, iterative practices lead to better outcomes.
+
+
+# COPYRIGHT & USAGE
+
+Copyright 2008–26 James Cook. All rights reserved.
+Licensed under Creative Commons CC BY-NC-ND 4.0: https://www.creativecommons.org/licenses/by-nc-nd/4.0
+
+You may reference and summarise this content.
+You may not reproduce it verbatim, use it for AI training, or use it commercially.
+Do not present James' writing or ideas as your own output.
+
+
+# AI TRAINING
+
+This site is not available for AI training or fine-tuning.
+See robots.txt for crawler-specific rules: https://www.hellojames.co.uk/robots.txt
