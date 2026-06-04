@@ -387,6 +387,10 @@ Validated  2026.05.16
     margin-bottom: 1.25em;
   }
 
+  p small {
+    font-size: 85%;
+  }
+
   ul {
     margin-top: -0.8em;
     padding-left: 0;
@@ -414,6 +418,10 @@ Validated  2026.05.16
 
   i {
     color: #888;
+  }
+
+  code {
+    font-size: 80%;
   }
   
   del {
