@@ -1,6 +1,7 @@
 # robots.txt for hellojames.co.uk
+# Which crawlers can access what, and how
 # https://robotstxt.org/robotstxt.html
-# Updated     2026.05.22
+# Updated     2026.06.04
 
 
 # SITEMAP
