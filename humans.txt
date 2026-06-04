@@ -2,8 +2,9 @@
 ---
 
 # humans.txt for hellojames.co.uk
+# The people who built and shaped this site
 # https://humanstxt.org
-# Updated     2026.05.22
+# Updated     2026.06.04
 
 
 # TEAM
@@ -12,11 +13,12 @@ Human: James Cook
 From: Bristol, UK
 Role: Designer, developer, writer
 Contact: linkedin.com/in/hellojames
-Mentoring: adplist.org/mentors/james-cook
 
 
 # THANKS
 
+Annmarie Kiddle
+Ben Garvey-Cubbon
 Cecilia Dobbs
 Cleo Ngiam
 Colin Coles
@@ -24,8 +26,10 @@ Dave Rees
 Darius Kumana
 Melissa Shaw
 Nick Sole
+Nina McNamara
 Paulo Cunha
 Phil Parker
+Rob Lloyd
 
 
 # SITE
