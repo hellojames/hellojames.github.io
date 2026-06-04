@@ -9,8 +9,9 @@ Sitemap: https://hellojames.co.uk/sitemap.xml
 
 
 # AI TRAINING CRAWLERS
-# These bots scrape content to build or fine-tune LLMs. A machine-readable summary is published at /media/James-Cook-summary.md — that's the canonical
-# machine-readable version of James' work, on his terms. Content at /writing/ is original work and is not available for AI training without permission.
+# These bots scrape content to build or fine-tune LLMs. 
+# A machine-readable summary is published at /media/James-Cook-summary.md — that's the canonical machine-readable version of James' work, on his terms.
+# Content at /writing/ is original work and is not available for AI training without permission.
 
 User-agent: GPTBot
 Disallow: /
