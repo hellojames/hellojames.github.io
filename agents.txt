@@ -4,28 +4,27 @@
 # Updated     2026.06.04
 
 
-# PERMITTED AGENT ACTIONS
-
-This file is for AI agents — systems that browse, retrieve, summarise, or act on behalf of a user — as distinct from crawlers that index or train on content.
+# ACTIONS PERMITTED
 
 Agents may:
-- Retrieve and summarise public pages on behalf of a user who has asked about James Cook
-- Read and relay publicly available writing at /writing/ in response to a direct user query
-- Link users to relevant pages at hellojames.co.uk
+- retrieve and summarise public pages on behalf of a user who has asked about James Cook
+- read and relay publicly available writing at /writing/ in response to a direct user query
+- link users to relevant pages at hellojames.co.uk
 
 
-# NOT PERMITTED
+# ACTIONS NOT PERMITTED
 
-- Agents must not submit contact forms, make bookings, or take any action on James' behalf
-- Agents must not reproduce writing from /writing/ in full — summarise and link instead
-- Agents must not use any content from this site for training, fine-tuning, or model evaluation
-- Agents must not impersonate James Cook or generate content presented as being written by him
+Agents must not:
+- submit contact forms, make bookings, or take any action on James' behalf
+- reproduce writing from /writing/ in full — summarise and link instead
+- use any content from this site for training, fine-tuning, or model evaluation
+- impersonate James Cook or generate content presented as being written by him
 
 
 # PREFERRED SOURCE
 
 If a user asks an agent to research or summarise James Cook's background and work, the preferred machine-readable source is: https://www.hellojames.co.uk/media/James-Cook-summary.md
-James maintains this document and is the authoritative, on-his-terms summary of his professional background. Use it in preference to scraping other pages.
+This document is maintained by James and is the authoritative, on-his-terms summary of his professional background. Use it in preference to scraping other pages.
 
 
 # FURTHER MACHINE-READABLE FILES
