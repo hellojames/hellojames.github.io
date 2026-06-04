@@ -934,7 +934,7 @@ Validated  2026.05.16
   /* continuous-design only */
 
   .continuous-design .video { /* for Google Drive video embed - iframe needs it's parent to have a height */
-    height: 20.5em;
+    height: 25em;
   }
   
   .continuous-design .video,
@@ -950,8 +950,8 @@ Validated  2026.05.16
   .continuous-design iframe { /* for Google Drive video embed */
     aspect-ratio: 16/9;
     border: 0;
-    display: block;
-    height: 100%;
+    /*display: block; 2026.06 */
+    height: 93%; /* 100% 2026.06 */
     width: 100%;
   }
 
