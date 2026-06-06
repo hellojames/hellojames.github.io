@@ -9,10 +9,11 @@
 
 # TEAM
 
-Human: James Cook
-From: Bristol, UK
-Role: Designer, developer, writer
-Contact: linkedin.com/in/hellojames
+James Cook
+– Bristol, UK
+- Designer, developer, writer
+- https://linkedin.com/in/hellojames
+– hellojames.co.uk
 
 
 # THANKS
@@ -36,7 +37,8 @@ Rob Lloyd
 
 Updated: {{ site.time | date: "%Y.%m.%d" }}
 Language: British English
-Standards: HTML5, CSS3
 Components: GitHub Pages, Jekyll
+Standards: CSS3, HTML5, Markdown, SVG
+Libraries: Normalize.css
 Fonts: Anonymous Pro, Georgia
-IDE: Claude, Figma, Firefox, GitHub Desktop, Sublime Text
+Toolchain: Claude, Figma, Firefox, GitHub Desktop, macOS, Sublime Text
