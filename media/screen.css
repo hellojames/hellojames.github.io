@@ -889,8 +889,14 @@ Validated  2026.05.16
   
   /* colophon only */
 
-  .colophon p:first-child small {
+  /*.colophon p:first-child small { 2026.06 defunct?
     font-variant: all-small-caps;
+  }*/
+
+  @media screen and (max-width: 710px) {
+    .colophon p:nth-of-type(2) br {
+     display: none;
+    }
   }
 
   
