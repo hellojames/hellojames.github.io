@@ -672,7 +672,7 @@ Validated  2026.05.16
   header p,
   footer p {
     margin: 0;
-    max-width: 86%;
+    /*max-width: 86%; 2026.06 defunct? */
     padding-right: 50px;
     position: relative;
   }
