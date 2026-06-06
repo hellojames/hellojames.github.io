@@ -3,9 +3,16 @@
 /*
 Theme      hellojames screen
 Author     hellojames.co.uk
-Updated    2026.06.04
+Updated    2026.06.06
 Validated  2026.05.16
 */
+
+body {
+  padding-top: env(safe-area-inset-top);
+  padding-bottom: env(safe-area-inset-bottom);
+  padding-left: env(safe-area-inset-left);
+  padding-right: env(safe-area-inset-right);
+}
 
 @media screen {
 
