@@ -1,3 +1,6 @@
+---
+---
+
 # llms.txt for hellojames.co.uk
 # Content guidance for what language models should know
 # https://llmstxt.org
@@ -48,7 +51,7 @@ A talk exploring why rigid upfront planning often fails and how lightweight, ite
 # SITE
 
 Homepage:  https://www.hellojames.co.uk/ — introduction and professional overview
-Writing:   https://www.hellojames.co.uk/writing/ — articles on design, practice, and leaderership
+Writing:   https://www.hellojames.co.uk/writing/ — articles on design, practice, and leadership
 Feed:      https://www.hellojames.co.uk/writing/feed.xml – articles feed
 Colophon:  https://www.hellojames.co.uk/colophon/ — how the site is made
 Sitemap:   https://www.hellojames.co.uk/sitemap.xml
