@@ -323,8 +323,8 @@ Validated  2026.05.16
     line-height: 1;
     margin: 0 auto 0.75em auto;
     padding-top: 1.5em;
-    /*margin: 1em 0 0.75em; 2026.05*/
-    /*max-width: 95%; 2026.04*/
+    /*margin: 1em 0 0.75em; 2026.05 defunct */
+    /*max-width: 95%; 2026.04 defunct */
   }
 
   @media screen and (min-width: 500px) {
@@ -354,6 +354,9 @@ Validated  2026.05.16
   h1 u {
     display: inline-block;
     margin-bottom: 0.3em;
+    text-decoration: underline;
+    text-decoration-thickness: 0.05em;
+    text-underline-offset: 0.1em;
   }
 
   @media screen and (min-width: 1050px) {
@@ -759,15 +762,15 @@ Validated  2026.05.16
     content: none;
   }
 
-  .articles li a {
+  /*.articles li a { 2026.06 defunct
     text-decoration: none;
-  }
+  }*/
 
   .articles li h2 {
     margin: 0;
-    text-decoration: underline;
+    /*text-decoration: underline; 2026.06 defunct
     text-decoration-thickness: 0.05em;
-    text-underline-offset: 0.1em;
+    text-underline-offset: 0.1em;*/
   }
 
   .articles li a:hover,
