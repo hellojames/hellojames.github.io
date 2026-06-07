@@ -1,7 +1,7 @@
 <p class="hj">
 
  {% if page.header_mode == "writing_item" %}
-  <a href="https://hellojames.co.uk" title="hellojames.co.uk" class="home">hellojames</a><i>/</i><a href="{{ '/writing/' | relative_url }}" title="/writing">writing</a><i>/</i><span>{{ header_title }}</span>
+  <a href="https://hellojames.co.uk" title="hellojames.co.uk" class="home">hellojames</a><i>/</i><a href="{{ '/writing/' | relative_url }}" title="/writing">writing</a><i>/</i><span>{{ page.header_title }}</span>
   <a href="{{ '/writing/feed.xml' | relative_url }}" title="RSS feed" class="feed">feed</a>
 
  {% elsif page.header_mode == "writing_index" %}
