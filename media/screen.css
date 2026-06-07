@@ -923,11 +923,11 @@ Validated  2026.05.16
 
   /* egyptian-iteration only */
   
-  .egyptian-iteration > p:nth-of-type(11) {
+  .egyptian-iteration > article p:nth-of-type(11) {
     letter-spacing: -0.005em;
   }
   
-  .egyptian-iteration > p:nth-of-type(25) {
+  .egyptian-iteration > article p:nth-of-type(25) {
     letter-spacing: -0.006em;
   }
 
