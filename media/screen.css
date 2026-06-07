@@ -918,7 +918,7 @@ Validated  2026.05.16
       margin-top: -12px;
       margin-left: 12px;
     }
-    .better-feedback > p:nth-of-type(1) {
+    .better-feedback > article p:nth-of-type(1) {
       width: 89%;
     }
   }
