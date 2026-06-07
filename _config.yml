@@ -1,12 +1,18 @@
 baseurl: ""
 url: "https://hellojames.co.uk"
-# match title & description to meta tags
 title: James Cook &bull; Design Leader &amp; Mentor | hellojames
 description: I’m a design leader who helps organisations build great in-house teams and digital services. 20+ years’ experience delivering software systems, defining design practices, and developing people.
+# match title & description to meta tags
 
 plugins:
   - jekyll-redirect-from
   - jekyll-sitemap
+
+include:
+  - agents.txt
+  - llms.txt
+  - robots.txt
+  - humans.txt
 
 # exclude paths from jekyll-sitemap
 defaults:
