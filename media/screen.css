@@ -3,7 +3,7 @@
 /*
 Theme      hellojames screen
 Author     hellojames.co.uk
-Updated    2026.06.06
+Updated    2026.06.07
 Validated  2026.05.16
 */
 
@@ -910,15 +910,13 @@ Validated  2026.05.16
   
   
   /* better-feedback only */
-  
-  /* better-feedback figure {margin-left: -10px;} 2022.04 */
 
   @media screen and (min-width: 850px) {
     .better-feedback figcaption {
       margin-top: -12px;
       margin-left: 12px;
     }
-    .better-feedback > p:nth-child(3) {
+    .better-feedback > p:nth-of-type(1) {
       width: 89%;
     }
   }
@@ -933,8 +931,6 @@ Validated  2026.05.16
   .egyptian-iteration > p:nth-child(39) {
     letter-spacing: -0.006em;
   }
-
-  /*.egyptian-iteration figure.illustration {margin-top: 3em;} 2022.04 */
 
 
   /* continuous-design only */
