@@ -1,15 +1,15 @@
 <p class="hj">
 
  {% if page.header_mode == "writing_item" %}
-  <a href="https://hellojames.co.uk" title="hellojames.co.uk" class="home">hellojames</a><i>/</i><a href="{{ '/writing/' | relative_url }}" title="/writing">writing</a><i>/</i><span>{{ page.header_title | default: page.title }}</span>
+  <a href="https://hellojames.co.uk" title="hellojames.co.uk" class="home">hellojames</a><i>/</i><a href="{{ '/writing/' | relative_url }}" title="/writing">writing</a><i>/</i><span>{{ page.title }}</span>
   <a href="{{ '/writing/feed.xml' | relative_url }}" title="RSS feed" class="feed">feed</a>
 
- {% elsif page.header_mode == "writing" %}
+ {% elsif page.header_mode == "writing_index" %}
   <a href="https://hellojames.co.uk" title="hellojames.co.uk" class="home">hellojames</a><i>/</i><a href="{{ '/writing/' | relative_url }}" title="/writing">writing</a>
   <a href="{{ '/writing/feed.xml' | relative_url }}" title="RSS feed" class="feed">feed</a>
 
  {% else %}
-  <a href="https://hellojames.co.uk" title="hellojames.co.uk" class="home">hellojames</a><i>/</i><span>james cook</span>
+  <a href="https://hellojames.co.uk" title="hellojames.co.uk" class="home">hellojames</a><i>/</i><span>{{ header_title }}</span> <!-- james cook -->
 
  {% endif %}
 
