@@ -20,8 +20,8 @@ Validated   2026.05.15
     <meta property="og:url" content="https://hellojames.co.uk">
     <meta property="og:type" content="website">
     <title>{{ page.title }} | hellojames</title>
-    <link rel="canonical" href="https://hellojames.co.uk">
-    <link rel="author" href="http://hellojames.co.uk/humans.txt" type="text/plain">
+    <link rel="canonical" href="{{ page.url | absolute_url }}">
+    <link rel="author" href="{{ '/humans.txt' | absolute_url }}" type="text/plain">
     <!-- # SECURITY -->
     <meta name="referrer" content="strict-origin-when-cross-origin">
     <meta http-equiv="X-Content-Type-Options" content="nosniff">
