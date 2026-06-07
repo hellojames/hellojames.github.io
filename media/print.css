@@ -65,9 +65,11 @@ Validated  2026.04.02
     color: lightgray;
   }
 
-  /*img {
-    display: none;
-  }*/
+  img {
+    /*display: none;*/
+    max-width: 50%;
+    width: 50%;
+  }
 
 
 
