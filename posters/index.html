@@ -435,3 +435,57 @@ Validated   #
   </div>
 
 </main>
+
+
+
+
+<script type="text/javascript">
+  
+  // Open modal
+  document.querySelectorAll('.posters2 a').forEach(link => {
+    link.addEventListener('click', (e) => {
+      e.preventDefault();
+      const posterId = link.getAttribute('href').slice(1);
+      document.getElementById(posterId).style.display = 'flex';
+    });
+  });
+  
+  // Close modal
+  document.querySelectorAll('.close').forEach(btn => {
+    btn.addEventListener('click', (e) => {
+      e.preventDefault();
+      e.target.closest('.poster-modal').style.display = 'none';
+    });
+  });
+  
+  // Close on background click
+  document.querySelectorAll('.poster-modal').forEach(modal => {
+    modal.addEventListener('click', (e) => {
+      if (e.target === modal) {
+        modal.style.display = 'none';
+      }
+    });
+  });
+
+</script>
+
+<style>
+
+  .poster-modal {
+  display: none; /* stays none by default */
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.9);
+  z-index: 999;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.poster-modal.active {
+  display: flex;
+}
+</style>
