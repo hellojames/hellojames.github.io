@@ -713,6 +713,7 @@ Validated  2026.05.16
 
   footer span {
     font-size: 0.8em;
+    margin: 0 -3px;
     opacity: 0.7;
   }
 
@@ -978,7 +979,7 @@ Validated  2026.05.16
   */
 
   
-  /* Posters only */
+  /* Posters only *
   .posters1 .posters2 {
     display: grid !important;
     gap: 1rem !important;
@@ -1000,7 +1001,7 @@ Validated  2026.05.16
     content: none;
     margin: 0;
     padding: 0;
-  }
+  }*/
 
 
 
