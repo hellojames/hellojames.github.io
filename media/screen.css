@@ -975,30 +975,26 @@ Validated  2026.05.16
 
   
   /* Posters only */
-
   .posters1 .posters2 {
     list-style: none !important;
     margin: 0 !important;
     padding: 0 !important;
     display: grid !important;
-    grid-template-columns: repeat(auto-fill, minmax(212px, 1fr)) !important;
+    grid-template-columns: repeat(auto-fill, 212px) !important;
     gap: 1rem !important;
+    justify-content: start;
   }
-
+  
   .posters1 .posters2 li {
     list-style: none !important;
+    width: 212px !important;
+    max-width: 212px !important;
   }
-
+  
   .posters1 .posters2 li:before {
     content: none;
     margin: 0;
     padding: 0;
-  }
-
-  .posters1 .posters2 img {
-    display: block !important;
-    width: 100% !important;
-    height: auto !important;
   }
 
 
