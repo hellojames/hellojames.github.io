@@ -706,10 +706,14 @@ Validated  2026.05.16
     margin-right: -1px;
   }
 
-  header span,
-  footer span {
+  header span {
     display: inline-block;
     padding: 0 4px;
+  }
+
+  footer span {
+    font-size: 0.8em;
+    opacity: 0.7;
   }
 
   header .hj {
