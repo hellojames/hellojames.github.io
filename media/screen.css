@@ -973,6 +973,28 @@ Validated  2026.05.16
   }
   */
 
+  
+  /* Posters only */
+
+  .posters1 .posters2 {
+    list-style: none !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    display: grid !important;
+    grid-template-columns: repeat(auto-fill, minmax(212px, 1fr)) !important;
+    gap: 2rem !important;
+  }
+
+  .posters1 .posters2 li {
+    list-style: none !important;
+  }
+
+  .posters1 .posters2 img {
+    display: block !important;
+    width: 100% !important;
+    height: auto !important;
+  }
+
 
 
 /* /end screen */
