@@ -1,19 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+    xmlns:content="https://www.purl.org/rss/1.0/modules/content/"
+    xmlns:wfw="https://www.ellformedweb.org/CommentAPI/"
+    xmlns:dc="https://www.purl.org/dc/elements/1.1/"
+    xmlns:atom="https://www.w3.org/2005/Atom"
+    xmlns:sy="https://www.purl.org/rss/1.0/modules/syndication/"
+    xmlns:slash="https://www.purl.org/rss/1.0/modules/slash/">
 <!--
 Updated     2026.06.11
 Validated   2026.06.11
 -->
 
-<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
-xmlns:content="https://www.purl.org/rss/1.0/modules/content/"
-xmlns:wfw="https://wwww.ellformedweb.org/CommentAPI/"
-xmlns:dc="https://www.purl.org/dc/elements/1.1/"
-xmlns:atom="https://www.w3.org/2005/Atom"
-xmlns:sy="https://www.purl.org/rss/1.0/modules/syndication/"
-xmlns:slash="https://www.purl.org/rss/1.0/modules/slash/"
->
-
 <channel>
-
 
 
 	<title>hellojames</title>
@@ -28,8 +26,7 @@ xmlns:slash="https://www.purl.org/rss/1.0/modules/slash/"
 		<link>https://www.hellojames.co.uk/writing</link>
 		<width>32</width>
 		<height>32</height>
-	</image> 
-
+	</image>
 
 
 		<item>
@@ -40,9 +37,8 @@ xmlns:slash="https://www.purl.org/rss/1.0/modules/slash/"
 			<pubDate>Fri, 15 Jan 2021 12:00:00 GMT</pubDate>
 			<dc:creator>hellojames.co.uk</dc:creator>
 		</item>
-		
-		
-		
+
+
 		<item>
 			<title>Design by autocomplete</title>
 			<link>https://www.hellojames.co.uk/writing/design-autocomplete/</link>
@@ -51,9 +47,8 @@ xmlns:slash="https://www.purl.org/rss/1.0/modules/slash/"
 			<pubDate>Tue, 16 Jan 2024 12:00:00 GMT</pubDate>
 			<dc:creator>hellojames.co.uk</dc:creator>
 		</item>
-		
-		
-		
+
+
 		<item>
 			<title>What the Ancient Egyptians teach us about iteration</title>
 			<link>https://www.hellojames.co.uk/writing/egyptian-iteration/</link>
@@ -62,9 +57,8 @@ xmlns:slash="https://www.purl.org/rss/1.0/modules/slash/"
 			<pubDate>Wed, 30 Jun 2021 12:00:00 GMT</pubDate>
 			<dc:creator>hellojames.co.uk</dc:creator>
 		</item>
-	
-	
-	
+
+
 		<item>
 			<title>What iteration looks like</title>
 			<link>https://www.hellojames.co.uk/writing/look-iteration/</link>
@@ -73,9 +67,8 @@ xmlns:slash="https://www.purl.org/rss/1.0/modules/slash/"
 			<pubDate>Fri, 15 May 2026 12:00:00 GMT</pubDate>
 			<dc:creator>hellojames.co.uk</dc:creator>
 		</item>
-	 
-	
-	
+
+
 		<item>
 			<title>Continuous design & development</title>
 			<link>https://www.hellojames.co.uk/writing/continuous-design/</link>
@@ -84,9 +77,8 @@ xmlns:slash="https://www.purl.org/rss/1.0/modules/slash/"
 			<pubDate>Thu, 08 Jul 2021 12:00:00 GMT</pubDate>
 			<dc:creator>hellojames.co.uk</dc:creator>
 		</item>
-	 
-	
-	
+
+
 		<item>
 			<title>Should designers code?</title>
 			<link>https://www.hellojames.co.uk/writing/designers-code/</link>
@@ -95,7 +87,6 @@ xmlns:slash="https://www.purl.org/rss/1.0/modules/slash/"
 			<pubDate>Mon, 02 Nov 2015 12:00:00 GMT</pubDate>
 			<dc:creator>hellojames.co.uk</dc:creator>
 		</item>
- 
 
 
 	</channel>
