@@ -3,7 +3,7 @@
 /*
 Theme      hellojames screen
 Author     hellojames.co.uk
-Updated    2026.06.09
+Updated    2026.06.11
 Validated  2026.05.16
 */
 
@@ -561,6 +561,10 @@ Validated  2026.05.16
   video,
   iframe {
     margin-bottom: 0.9em;
+  }
+
+  iframe {
+    border: none;
   }
 
   
