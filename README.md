@@ -31,6 +31,7 @@ I’m a design leader who helps organisations build great in-house teams and dig
 ```
 <br>
 
+<!-- 
 ## Running locally & Deployment
 
 Requires Ruby and Bundler.
@@ -43,3 +44,4 @@ bundle exec jekyll serve
 Available at `http://localhost:4000`.
 
 Pushing to `main` deploys automatically via GitHub Pages. No CI pipeline required.
+-->
