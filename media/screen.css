@@ -946,27 +946,27 @@ Validated  2026.05.16
 
   /* continuous-design only */
 
-  .continuous-design .video { /* for Google Drive video embed - iframe needs it's parent to have a height */
+  /* .continuous-design .video { 2026.06 defunct (for Google Drive video embed - iframe needs it's parent to have a height)
     height: 25em;
-  }
+  }*/
   
   .continuous-design .video,
   .continuous-design iframe {
     overflow: hidden;
   }
 
-  .continuous-design .video video,
+  /*.continuous-design .video video,
   .continuous-design iframe {
     margin-top: -5px;
-  }
+  } 2026.06 defunct */
 
-  .continuous-design iframe { /* for Google Drive video embed */
+  /*.continuous-design iframe { 2026.06 defunct (for Google Drive video embed)
     aspect-ratio: 16/9;
     border: 0;
-    /*display: block; 2026.06 */
-    height: 93%; /* 100% 2026.06 */
+    /*display: block; 2026.06 defunct *
+    height: 93%; /* 100% 2026.06 *
     width: 100%;
-  }
+  }*/
 
   /*
   .video-wrap {
