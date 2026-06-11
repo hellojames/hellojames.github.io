@@ -22,9 +22,9 @@ Validated   2026.05.15
     <title>{{ page.title | default: site.title }} • hellojames</title>
     <link rel="canonical" href="{{ page.url | absolute_url }}">
     <link rel="author" href="{{ '/humans.txt' | absolute_url }}" type="text/plain">
-    <!-- # SECURITY C -->
+    <!-- # SECURITY D -->
     <meta name="referrer" content="strict-origin-when-cross-origin">
-    <meta http-equiv="X-Content-Type-Options" content="nosniff">
+    <!-- <meta http-equiv="X-Content-Type-Options" content="nosniff"> -->
     <meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' data: https://i.ytimg.com https://i1.ytimg.com https://i2.ytimg.com https://i3.ytimg.com https://i4.ytimg.com; style-src 'self' 'unsafe-inline'; font-src 'self'; script-src 'self' https://www.youtube-nocookie.com; connect-src 'self' https://www.youtube-nocookie.com https://www.youtube.com; object-src 'none'; frame-ancestors 'none'; frame-src https://www.youtube-nocookie.com https://drive.google.com;">
     <!-- # PRESENTATION -->
     <link rel="stylesheet" media="screen" href="{{ '/media/screen.css' | relative_url }}">
