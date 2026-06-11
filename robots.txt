@@ -1,12 +1,21 @@
 # robots.txt for hellojames.co.uk
 # Which crawlers can access what, and how
 # https://robotstxt.org/robotstxt.html
-# Updated     2026.06.04
+# Updated     2026.06.11
 
 
 # SITEMAP
 
 Sitemap: https://hellojames.co.uk/sitemap.xml
+
+
+# INTERNET ARCHIVE & WAYBACK MACHINE
+# Explicitly permit full access for public archival and preservation
+# https://archive.org/about/
+User-agent: ia_archiver
+Allow: /
+Disallow: /media/
+Crawl-delay: 0
 
 
 # AI TRAINING CRAWLERS
