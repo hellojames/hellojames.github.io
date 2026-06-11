@@ -25,7 +25,7 @@ Validated   2026.05.15
     <!-- # SECURITY -->
     <meta name="referrer" content="strict-origin-when-cross-origin">
     <meta http-equiv="X-Content-Type-Options" content="nosniff">
-    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' data:; style-src 'self'; font-src 'self'; script-src 'self' https://www.youtube-nocookie.com; object-src 'none'; frame-ancestors 'none'; frame-src https://www.youtube-nocookie.com https://drive.google.com;">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' data: https:; style-src 'self' 'unsafe-inline'; font-src 'self'; script-src 'self' https://www.youtube.com https://www.youtube-nocookie.com https://s.ytimg.com; connect-src 'self' https://www.youtube.com https://www.youtube-nocookie.com; object-src 'none'; frame-ancestors 'none'; frame-src https://www.youtube-nocookie.com https://drive.google.com;">
     <!-- # PRESENTATION -->
     <link rel="stylesheet" media="screen" href="{{ '/media/screen.css' | relative_url }}">
     <link rel="stylesheet" media="print" href="{{ '/media/print.css' | relative_url }}">
