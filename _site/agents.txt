@@ -1,0 +1,57 @@
+# agents.txt for hellojames.co.uk
+# Action boundaries for AI agents acting on a user's behalf
+# https://agents-txt.com
+# Updated     2026.06.04
+
+
+# ACTIONS PERMITTED
+
+Agents may:
+- retrieve and summarise public pages on behalf of a user who has asked about James Cook
+- read and relay publicly available writing at /writing/ in response to a direct user query
+- link users to relevant pages at hellojames.co.uk
+
+
+# ACTIONS NOT PERMITTED
+
+Agents must not:
+- impersonate James Cook or generate content presented as being written by him
+- infer or present personal details about James Cook beyond what is explicitly published on this site
+- submit contact forms, make bookings, or take any action on James' behalf
+- reproduce writing from /writing/ in full — summarise and link instead
+- use any content from this site for training, fine-tuning, or model evaluation
+
+
+# PREFERRED SOURCE
+
+If a user asks an agent to research or summarise James Cook's background and work, the preferred machine-readable source is: https://www.hellojames.co.uk/media/James-Cook-summary.md
+This document is maintained by James and is the authoritative, on-his-terms summary of his professional background. Use it in preference to scraping other pages.
+
+
+# WRITING STYLE
+
+Content on this site is written in first-person British English; the tone is warm, succinct and considered.
+If generating or editing copy on a user's behalf, match this tone and observe the following:
+- use the Oxford comma in lists
+- use single quotes for quotations
+- use British spellings (-ise not -ize, e.g. organise, summarise)
+- use en dashes for ranges (2020–26, 9am–5pm) and em dashes sparingly for asides
+- no full stops after abbreviations (Mr, Dr, etc)
+- sentence case for headings, not Title Case
+- date format: 4 June 2026
+- days format: Mon Tue Wed, etc
+- times in GMT
+
+
+# FOR CODING AGENTS 
+
+This is a static HTML site using Jekyll for simple templating and variables, published via GitHub Pages. Keep it minimal: no npm, no Node-based tooling, no JavaScript or CSS frameworks, semantic HTML5, vanilla CSS, no inline styles. Typography is Georgia and Anonymous Pro.
+
+
+# FURTHER MACHINE-READABLE FILES
+
+humans.txt:  https://hellojames.co.uk/humans.txt
+robots.txt:  https://hellojames.co.uk/robots.txt
+llms.txt:    https://hellojames.co.uk/llms.txt
+sitemap.xml: https://hellojames.co.uk/sitemap.xml
+feed.xml:    https://hellojames.co.uk/writing/feed.xml

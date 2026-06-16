@@ -1,0 +1,41 @@
+# humans.txt for hellojames.co.uk
+# The people who built and shaped this site
+# https://humanstxt.org
+# Updated     2026.06.04
+
+
+# TEAM
+
+James Cook
+- Bristol, UK
+- Designer, developer, writer
+- https://linkedin.com/in/hellojames
+- hellojames.co.uk
+
+
+# THANKS
+
+Annmarie Kiddle
+Ben Garvey-Cubbon
+Cecilia Dobbs
+Cleo Ngiam
+Colin Coles
+Dave Rees
+Darius Kumana
+Melissa Shaw
+Nick Sole
+Nina McNamara
+Paulo Cunha
+Phil Parker
+Rob Lloyd
+
+
+# SITE
+
+Updated: 2026.06.15
+Language: British English
+Components: GitHub Pages, Jekyll
+Standards: CSS3, HTML5, Markdown, SVG
+Libraries: Normalize.css
+Fonts: Anonymous Pro, Georgia
+Toolchain: Claude, Figma, Firefox, GitHub Desktop, macOS, Sublime Text

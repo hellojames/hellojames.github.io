@@ -1,0 +1,113 @@
+# robots.txt for hellojames.co.uk
+# Which crawlers can access what, and how
+# https://robotstxt.org/robotstxt.html
+# Updated     2026.06.04
+
+
+# SITEMAP
+
+Sitemap: https://hellojames.co.uk/sitemap.xml
+
+
+# AI TRAINING CRAWLERS
+# These bots scrape content to build or fine-tune LLMs. 
+# A machine-readable summary is published at /media/James-Cook-summary.md — that's the canonical machine-readable version of James' work, on his terms.
+# Content at /writing/ is original work and is not available for AI training without permission.
+
+User-agent: GPTBot
+Disallow: /
+
+User-agent: ChatGPT-User
+Disallow: /
+
+User-agent: Google-Extended
+Disallow: /
+
+User-agent: CCBot
+Disallow: /
+
+User-agent: anthropic-ai
+Disallow: /
+
+User-agent: Claude-Web
+Disallow: /
+
+User-agent: cohere-ai
+Disallow: /
+
+User-agent: PerplexityBot
+Disallow: /
+
+User-agent: Omgilibot
+Disallow: /
+
+User-agent: FacebookBot
+Disallow: /
+
+User-agent: Diffbot
+Disallow: /
+
+User-agent: Bytespider
+Disallow: /
+
+User-agent: ImagesiftBot
+Disallow: /
+
+User-agent: Applebot-Extended
+Disallow: /
+
+
+# AGGRESSIVE / LOW-VALUE CRAWLERS
+
+User-agent: AhrefsBot
+Disallow: /
+
+User-agent: SemrushBot
+Disallow: /
+
+User-agent: MJ12bot
+Disallow: /
+
+User-agent: DotBot
+Disallow: /
+
+User-agent: BLEXBot
+Disallow: /
+
+User-agent: DataForSeoBot
+Disallow: /
+
+
+# SEARCH ENGINES
+# Index all public pages including /writing/ and its articles — that content benefits from being found. 
+# Exclude /media/ to avoid duplicate-content noise, and the RSS feed at /writing/feed.xml 
+
+User-agent: Googlebot
+Disallow: /media/
+Disallow: /writing/feed.xml
+Disallow: /writing/media/
+
+User-agent: Bingbot
+Disallow: /media/
+Disallow: /writing/feed.xml
+Disallow: /writing/media/
+
+User-agent: DuckDuckBot
+Disallow: /media/
+Disallow: /writing/feed.xml
+Disallow: /writing/media/
+
+User-agent: Slurp
+Disallow: /media/
+Disallow: /writing/feed.xml
+Disallow: /writing/media/
+
+
+# EVERYONE ELSE
+
+User-agent: *
+Disallow: /media/
+Disallow: /writing/feed.xml
+Crawl-delay: 10
+
+
