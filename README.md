@@ -10,7 +10,6 @@ I’m a design leader who helps organisations build great in-house teams and dig
 
 - **Generator:** Jekyll
 - **Languages:** HTML, CSS
-- **Fonts:** Georgia, Anonymous Pro
 - **Hosting:** GitHub Pages
 - **Domain:** Custom CNAME → `hellojames.co.uk`
 - **Plugins:** `jekyll-redirect-from`
