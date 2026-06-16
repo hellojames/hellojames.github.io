@@ -85,7 +85,7 @@ A DESIGN.md file contains two parts:
 
 ## Overview
 
-Personal site for a design leader. The presentation is intentionally minimal: restrained colour, no decoration, no animation. Typography and whitespace do all the work. Every stylistic addition has to justify itself.
+Designer's personal site. The presentation is intentionally minimal: restrained colour, no decoration, no animation. Typography and whitespace do all the work. Every stylistic addition has to justify itself.
 
 The brand personality is authoritative yet approachable. It evokes the clean layouts of traditional print editorial work combined with modern web interactivity.
 
