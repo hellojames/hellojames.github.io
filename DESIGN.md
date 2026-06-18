@@ -125,7 +125,7 @@ Single column. 680px max-width. No grids, no sidebars. 680px gives roughly 65–
 
 ## Elevation & Depth
 
-This is a flat design aesthetic. Visual depth is rejected in favour of site rendering performance and avoid aesthetic noise. Hierarchy is established through scale, grouping, and typographic contrast.
+This is primarily a flat aesthetic. Visual complexity is rejected in favour of site rendering performance. Heirarchy is established through scale, grouping, and typographic contrast. Some visual depth is used where appropriate, e.g. form input elements.
 
 
 ## Shapes
