@@ -2,7 +2,7 @@
 PDF download: https://hellojames.co.uk/media/James-Cook-summary.pdf
 Human-readable: https://github.com/hellojames/hellojames.github.io/edit/main/summary-md.md
 GitHub raw: https://raw.githubusercontent.com/hellojames/hellojames.github.io/main/summary-md.md
-Updated     2026.06.11
+Updated     2026.09.27
 -->
 
 <br>
@@ -65,6 +65,9 @@ Professional Summary for: [humans](https://hellojames.co.uk/media/James-Cook-sum
 
 ## Experience
 
+**User Experience Design Manager**  
+2026–Pr • UK/DE/IN/PT • Springer Nature
+
 **Design Mentor**  
 2021–Pr • global • ADPList
 
@@ -92,7 +95,6 @@ Professional Summary for: [humans](https://hellojames.co.uk/media/James-Cook-sum
 2007–08 • UK • Cambridge Assessment
 
 **Freelance**  
-2006–12 Freelance  
 2006–07 Cyfle/Sequence Digital  
 2005–06 Afanti Media
 
