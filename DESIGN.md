@@ -10,7 +10,6 @@ colors:
  background: "#FFFFFF"
  surface: "#F7F5F2"
 
-
 typography:
   body:
     fontFamily: Georgia, serif
@@ -66,10 +65,9 @@ components:
 
 <!-- 
 DESIGN.md for hellojames.co.uk
-Design intent specification and interface design guidance for AI agents 
-https://github.com/google-labs-code/design.md/blob/main/docs/spec.md
-Updated     2026.06.16
-
+Design style specifications and interface design guidance for AI agents 
+https://stitch.withgoogle.com/docs/design-md/overview
+Updated     2026.10.04
 
 DESIGN.md is a self-contained, plain-text representation of a design system.
 It defines a visual identity, thereby ensuring stylistic choices are followed
