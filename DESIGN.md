@@ -1,10 +1,3 @@
-<!--
-# DESIGN.md for hellojames.co.uk
-# Design style guidance for AI systems
-# https://stitch.withgoogle.com/docs/design-md/overview
-# Updated     2026.10.04
--->
-
 ---
 version: continuous
 name: hellojames
