@@ -18,7 +18,7 @@ Updated     2026.11.01
 **James Cook**  
 Bristol, United Kingdom
 
-**I'm a seasoned designer with 20+ years experience** delivering software systems, defining design practices, and developing people
+**Seasoned designer with 20+ years experience** delivering software systems, defining design practices, and developing people
 
 Professional Summary for: [humans](https://hellojames.co.uk/media/James-Cook-summary.pdf "View PDF") • [robots](https://hellojames.co.uk/media/James-Cook-summary.md "View Markdown")  
 [hellojames.co.uk](https://hellojames.co.uk "hellojames.co.uk") • [LinkedIn](https://linkedin.com/in/hellojames "linkedin.com/in/hellojames") • [ADPList](https://adplist.org/mentors/james-cook "adplist.org/mentors/james-cook")  
